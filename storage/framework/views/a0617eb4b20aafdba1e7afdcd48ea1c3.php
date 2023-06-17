@@ -3,6 +3,11 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="resources\css\nj-timepick.css">
+    <link rel="stylesheet" href="resources\css\style.css">
+    <script src="resources\js\index.js"></script>
+    <script src="/path/to/cdn/jquery.min.js"></script>
+    <script src="resources\js\time-picker.js"></script>
     <link rel="stylesheet" href="resources\css\buattoko2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
@@ -43,6 +48,7 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
+            top:-50%;
         }
 
         .wrapper.active {
@@ -66,7 +72,7 @@
 
         .wrapper .icon {
             font-size: 100px;
-            color: #9658fe;
+            color: #93622a;
         }
 
         .wrapper .text {
@@ -80,7 +86,7 @@
             font-size: 20px;
             right: 15px;
             top: 15px;
-            color: #9658fe;
+            color: #968b19;
             cursor: pointer;
             display: none;
         }
@@ -101,7 +107,7 @@
             font-size: 18px;
             color: #fff;
             display: none;
-            background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+            background: linear-gradient(135deg, #DC9966 0%, #7D5243 100%);
         }
 
         .wrapper.active:hover .file-name {
@@ -109,7 +115,7 @@
         }
 
         .container #custom-btn {
-            margin-top: 30px;
+            margin-top: -150px;
             display: block;
             width: 100%;
             height: 50px;
@@ -122,15 +128,48 @@
             letter-spacing: 1px;
             text-transform: uppercase;
             cursor: pointer;
-            background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+            background: linear-gradient(135deg, #DC9966 0%, #7D5243 100%);
+        }
+        .nj-timepick{
+            position:fixed;
+            right:-100%;
+            top:0;
+            bottom: 0;
+            width: 100%;
+            z-index: 5000;
+            transition: right 0.7s ease;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items:center;
+            background-color:rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(46, 13, 13), alpha)
+        }
+        button {
+            font-family: "Segoe UI", "Frutiger", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+            font-weight: bold;
+            display: block;
+            align-items: center;
+            width: 260px;
+            height: 36px;
+            border-radius: 30px;
+            color: #ffffff;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .create{
+            margin-top: 80px;
+            margin-bottom: 50px;
+            margin-left: 80px;
+            margin-right: 100px;
+            background-color: #7D5243
+        }
+        .create:hover{
+            background-color: #DC9966;
         }
     </style>
 
     <div class="container">
         <div class="wrapper">
-            <div class="image">
-                <img src="" alt="">
-            </div>
             <div class="content">
                 <div class="icon">
                     <i class="fas fa-cloud-upload-alt"></i>
@@ -145,9 +184,37 @@
             <div class="file-name">
                 File name here
             </div>
+            <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+            <input id="default-btn" type="file" hidden>
         </div>
-        <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
-        <input id="default-btn" type="file" hidden>
+
+        <div class="form-group">
+            <form action="<?php echo e(route('buattoko2')); ?>" method="POST">
+            <input type="text" name="namatoko" placeholder="Nama Toko" /> <br/>
+            <input type="text" name="letakpasar" placeholder="Letak Pasar"/><br/>
+            <input type="text" name="lokasitoko" placeholder="Lokasi Toko"/><br/>
+                <div class="jam-operasional">
+                    <span>Buka Toko
+                        <input type="time" name="bukatoko">
+                    </span>
+                    <span>Tutup Toko
+                        <input type="time" name="tutuptoko">
+                    </span>
+                    <span>Hari Buka
+                        <select multiple="multiple" id="myMulti">
+                            <option value="1">Senin</option>
+                            <option value="2">Selasa</option>
+                            <option value="3">Rabu</option>
+                            <option value="4">Kamis</option>
+                            <option value="5">Jumat</option>
+                            <option value="6">Sabtu</option>
+                            <option value="7">Minggu</option>
+                        </select>
+                    </span>
+                </div>
+                <button type="submit" class="create" value="submit">Simpan Toko</button>
+            </form>
+        </div>
     </div>
     <script>
         const wrapper = document.querySelector(".wrapper");
@@ -180,6 +247,13 @@
                 let valueStore = this.value.match(regExp);
                 fileName.textContent = valueStore;
             }
+        });
+        var myDrop = new drop({
+            selector: '#myMulti'
+        });
+        var myDrop =new drop({
+            selector: '#myMulti'
+            preselected: [0, 2]
         });
     </script>
 </body>

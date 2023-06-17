@@ -19,14 +19,14 @@ class TokoController extends Controller
     }
 
     public function buattokoPost(){
-        $user = User();
+        $toko = new Toko();
 
-        $user->namaToko = $request->namaToko;
-        $user->bukaToko = $request->bukaToko;
-        $user->tutupToko = $request->tutupToko;
-        $user->letakPasar = $request->letakPasar;
-        $user->lokasiPasar = $request->lokasiPasar;
-        $user->save();
+        $toko->namaToko = $request->namaToko;
+        $toko->bukaToko = $request->bukaToko;
+        $toko->tutupToko = $request->tutupToko;
+        $toko->letakPasar = $request->letakPasar;
+        $toko->lokasiPasar = $request->lokasiPasar;
+        $toko->save();
         return view('buattoko3');
     }
     public function index(){
