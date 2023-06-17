@@ -1,0 +1,1263 @@
+.informasi-toko-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.informasi-toko-informasi-toko {
+  width: 386px;
+  height: 812px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-white);
+}
+.informasi-toko-i-o-status-bar-black {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-bg {
+  top: -2px;
+  left: 78px;
+  width: 219px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-notch {
+  top: 0px;
+  left: 0px;
+  width: 219px;
+  height: 30px;
+  position: absolute;
+}
+.informasi-toko-right-side {
+  top: 17.3306884765625px;
+  left: 293.6666564941406px;
+  width: 66.661376953125px;
+  height: 11.336018562316895px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-battery {
+  top: 0.002685546875px;
+  left: 42.333343505859375px;
+  width: 24.32803726196289px;
+  height: 11.333333015441895px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-rectangle {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 11px;
+  opacity: 0.35;
+  position: absolute;
+}
+.informasi-toko-combined-shape {
+  top: 3.6666667461395264px;
+  left: 23px;
+  width: 1px;
+  height: 4px;
+  opacity: 0.40;
+  position: absolute;
+}
+.informasi-toko-rectangle1 {
+  top: 1.9999998807907104px;
+  left: 2px;
+  width: 18px;
+  height: 7px;
+  position: absolute;
+}
+.informasi-toko-wifi {
+  top: 0px;
+  left: 22.027069091796875px;
+  width: 15px;
+  height: 11px;
+  position: absolute;
+}
+.informasi-toko-mobile-signal {
+  top: 0.3359375px;
+  left: 0px;
+  width: 17px;
+  height: 11px;
+  position: absolute;
+}
+.informasi-toko-left-side {
+  top: 17.16748046875px;
+  left: 33.453514099121094px;
+  width: 28.42616844177246px;
+  height: 11.0888671875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-svg941 {
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  height: 11px;
+  position: absolute;
+}
+.informasi-toko-i-o-status-bar-black1 {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-bg1 {
+  top: -2px;
+  left: 78px;
+  width: 219px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-notch1 {
+  top: 0px;
+  left: 0px;
+  width: 219px;
+  height: 30px;
+  position: absolute;
+}
+.informasi-toko-right-side1 {
+  top: 17.3306884765625px;
+  left: 293.6666564941406px;
+  width: 66.661376953125px;
+  height: 11.336018562316895px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-battery1 {
+  top: 0.002685546875px;
+  left: 42.333343505859375px;
+  width: 24.32803726196289px;
+  height: 11.333333015441895px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-rectangle2 {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 11px;
+  opacity: 0.35;
+  position: absolute;
+}
+.informasi-toko-combined-shape1 {
+  top: 3.6666667461395264px;
+  left: 23px;
+  width: 1px;
+  height: 4px;
+  opacity: 0.40;
+  position: absolute;
+}
+.informasi-toko-rectangle3 {
+  top: 1.9999998807907104px;
+  left: 2px;
+  width: 18px;
+  height: 7px;
+  position: absolute;
+}
+.informasi-toko-wifi1 {
+  top: 0px;
+  left: 22.027069091796875px;
+  width: 15px;
+  height: 11px;
+  position: absolute;
+}
+.informasi-toko-mobile-signal1 {
+  top: 0.3359375px;
+  left: 0px;
+  width: 17px;
+  height: 11px;
+  position: absolute;
+}
+.informasi-toko-left-side1 {
+  top: 17.16748046875px;
+  left: 33.453514099121094px;
+  width: 28.42616844177246px;
+  height: 11.0888671875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-svg9411 {
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  height: 11px;
+  position: absolute;
+}
+.informasi-toko-image-block {
+  top: 76px;
+  left: 16px;
+  width: 343px;
+  height: 196px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-i-o-bottom-bar-tabs {
+  top: 729px;
+  left: 0px;
+  width: 375px;
+  height: 83.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-i-phone-ui {
+  top: 0.5px;
+  left: 0px;
+  width: 375px;
+  height: 83px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(250, 250, 250, 1);
+}
+.informasi-toko-home-indicator {
+  top: 69px;
+  left: 120px;
+  width: 134px;
+  height: 5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 1);
+}
+.informasi-toko-tabs {
+  top: 15px;
+  left: 26px;
+  width: 320px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-rectangle9 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 100px;
+}
+.informasi-toko-rectangle10 {
+  top: 0px;
+  left: 72px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 100px;
+}
+.informasi-toko-rectangle11 {
+  top: 0px;
+  left: 144px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 100px;
+}
+.informasi-toko-rectangle12 {
+  top: 0px;
+  left: 216px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 100px;
+}
+.informasi-toko-rectangle13 {
+  top: 0px;
+  left: 288px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 100px;
+}
+.informasi-toko-top-divider {
+  top: 0.5px;
+  left: 0px;
+  width: 375px;
+  height: 0px;
+  position: absolute;
+}
+.informasi-toko-ilustrasicaberawit12 {
+  top: 66px;
+  left: 16px;
+  width: 343px;
+  height: 203px;
+  position: absolute;
+}
+.informasi-toko-i-o-bottom-bar-tabs1 {
+  top: 729px;
+  left: 0px;
+  width: 375px;
+  height: 83.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-i-phone-ui1 {
+  top: 0.5px;
+  left: 0px;
+  width: 375px;
+  height: 83px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(250, 250, 250, 1);
+}
+.informasi-toko-home-indicator1 {
+  top: 69px;
+  left: 120px;
+  width: 134px;
+  height: 5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 1);
+}
+.informasi-toko-tabs1 {
+  top: 15px;
+  left: 26px;
+  width: 320px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-rectangle91 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 100px;
+}
+.informasi-toko-rectangle101 {
+  top: 0px;
+  left: 72px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 100px;
+}
+.informasi-toko-rectangle111 {
+  top: 0px;
+  left: 144px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 100px;
+}
+.informasi-toko-rectangle121 {
+  top: 0px;
+  left: 216px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 100px;
+}
+.informasi-toko-rectangle131 {
+  top: 0px;
+  left: 288px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 100px;
+}
+.informasi-toko-top-divider1 {
+  top: 0.5px;
+  left: 0px;
+  width: 375px;
+  height: 0px;
+  position: absolute;
+}
+.informasi-toko-s-miconsoutlinecart2 {
+  top: 748px;
+  left: 30px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.informasi-toko-s-miconsoutlinelocation1 {
+  top: 748px;
+  left: 102px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.informasi-toko-s-miconsoutlineedit4 {
+  top: 748px;
+  left: 246px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.informasi-toko-s-miconsoutlineuser1 {
+  top: 748px;
+  left: 174px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.informasi-toko-tokomadjulengkapdan1 {
+  top: 66px;
+  left: 16px;
+  width: 343px;
+  height: 203px;
+  position: absolute;
+}
+.informasi-toko-tokomadjulengkapdan3 {
+  top: 66px;
+  left: 16px;
+  width: 343px;
+  height: 203px;
+  position: absolute;
+}
+.informasi-toko-tokomadjulengkapdan2 {
+  top: 66px;
+  left: 16px;
+  width: 343px;
+  height: 203px;
+  position: absolute;
+}
+.informasi-toko-post-title-text {
+  top: 291px;
+  left: 15px;
+  width: 343px;
+  height: 163px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-text {
+  top: 44px;
+  color: var(--dl-color-default-black);
+  width: 343px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text02 {
+  color: var(--dl-color-default-black);
+  width: 343px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text04 {
+  top: 80px;
+  color: var(--dl-color-default-black);
+  width: 343px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text06 {
+  top: 106px;
+  color: var(--dl-color-gray-04);
+  width: 343px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-ellipse115 {
+  top: 300px;
+  left: 155px;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+}
+.informasi-toko-ellipse116 {
+  top: 305px;
+  left: 155px;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+}
+.informasi-toko-ellipse117 {
+  top: 310px;
+  left: 155px;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+}
+.informasi-toko-section-hot-deals {
+  top: 490px;
+  left: 16px;
+  width: 488px;
+  height: 222px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-content-market-block {
+  top: 45px;
+  left: 0px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle30 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text13 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text15 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block01 {
+  top: 45px;
+  left: 126px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3001 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text17 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text19 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block02 {
+  top: 45px;
+  left: 252px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3002 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text21 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text23 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block03 {
+  top: 45px;
+  left: 378px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3003 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text25 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text30 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text32 {
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-telurayam23 {
+  top: 535px;
+  left: 16px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-pedagangdagingdemo3 {
+  top: 535px;
+  left: 142px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-ilustrasicaberawit13 {
+  top: 535px;
+  left: 268px;
+  width: 107px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-section-hot-deals1 {
+  top: 535px;
+  left: 16px;
+  width: 488px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-content-market-block04 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3004 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text34 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text36 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block05 {
+  top: 0px;
+  left: 126px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3005 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text38 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text40 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block06 {
+  top: 0px;
+  left: 252px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3006 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text42 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text44 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block07 {
+  top: 0px;
+  left: 378px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3007 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text46 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text51 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-telurayam24 {
+  top: 535px;
+  left: 16px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-pedagangdagingdemo4 {
+  top: 535px;
+  left: 142px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-ilustrasicaberawit14 {
+  top: 535px;
+  left: 268px;
+  width: 107px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-section-hot-deals2 {
+  top: 490px;
+  left: 16px;
+  width: 488px;
+  height: 222px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-content-market-block08 {
+  top: 45px;
+  left: 0px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3008 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text53 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text55 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block09 {
+  top: 45px;
+  left: 126px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3009 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text57 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text59 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block10 {
+  top: 45px;
+  left: 252px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3010 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text61 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text63 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block11 {
+  top: 45px;
+  left: 378px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3011 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text65 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text70 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text72 {
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-pedagangdagingdemo5 {
+  top: 535px;
+  left: 142px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-ilustrasicaberawit15 {
+  top: 535px;
+  left: 268px;
+  width: 107px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-section-hot-deals3 {
+  top: 535px;
+  left: 16px;
+  width: 488px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.informasi-toko-content-market-block12 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3012 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text74 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text76 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-telurayam241 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-content-market-block13 {
+  top: 0px;
+  left: 126px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3013 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text78 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text80 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block14 {
+  top: 0px;
+  left: 252px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3014 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text82 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text84 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-content-market-block15 {
+  top: 0px;
+  left: 378px;
+  width: 110px;
+  height: 177px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-toko-rectangle3015 {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 8px;
+}
+.informasi-toko-text86 {
+  top: 118px;
+  color: var(--dl-color-default-black);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-text91 {
+  top: 160px;
+  color: var(--dl-color-default-black);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.informasi-toko-pedagangdagingdemo6 {
+  top: 535px;
+  left: 142px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-ilustrasicaberawit16 {
+  top: 535px;
+  left: 268px;
+  width: 107px;
+  height: 110px;
+  position: absolute;
+}
+.informasi-toko-s-miconsoutlinecoin {
+  top: 748px;
+  left: 318px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.informasi-toko-text93 {
+  top: 44px;
+  left: 16px;
+  color: var(--dl-color-green-primary);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+  text-decoration: none;
+}
+.informasi-toko-button-primary {
+  gap: 12px;
+  top: 291px;
+  left: 239px;
+  width: 120px;
+  height: 32px;
+  display: flex;
+  padding: 16px 32px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(125, 82, 67, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+.informasi-toko-text95 {
+  color: var(--dl-color-default-black);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
