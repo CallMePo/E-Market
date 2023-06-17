@@ -1,9 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SignUpController;
 use App\Http\Controllers\InformasiTokoController;
-use App\Http\Controllers\BuatTokoController;
+use App\Http\Controllers\TokoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,6 +32,10 @@ Route::post('/register', [SignUpController::class, 'registerPost'])->name('regis
 
 Route::get('/informasitoko', [InformasiTokoController::class, 'melihatInfoToko']);
 
-Route::get('/buattoko1', [BuatTokoController::class, 'buattoko1'])->name('buattoko1');
-Route::get('/buattoko2', [BuatTokoController::class, 'buattoko2'])->name('buattoko2');
-Route::get('/buattoko3', [BuatTokoController::class, 'buattoko3'])->name('buattoko3');
+Route::get('/buattoko1', [TokoController::class, 'buattoko1'])->name('buattoko1');
+Route::get('/buattoko2', [TokoController::class, 'buattoko2'])->name('buattoko2');
+Route::get('/buattoko3', [TokoController::class, 'buattoko3'])->name('buattoko3');
+
+
+//CRUD
+Route::get('/index', [TokoController::class, 'index']);
