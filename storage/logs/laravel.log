@@ -17445,6 +17445,7 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+<<<<<<< Updated upstream
 [2023-06-18 10:19:47] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\E-Market\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
 [stacktrace]
 #0 C:\\E-Market\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(307): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
@@ -17515,4 +17516,907 @@ Stack trace:
 #18 C:\\E-Market\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
 #19 C:\\E-Market\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\E-Market\\\\pub...')
 #20 {main}
+=======
+[2023-06-18 10:06:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:07:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:08:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:09:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:10:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:11:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:12:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:13:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:14:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:15:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:16:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:17:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:18:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:19:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:20:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:21:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:22:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:23:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:24:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:25:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:26:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:27:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:28:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:29:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:30:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:31:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:32:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:33:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:34:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:35:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:36:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:37:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:38:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:39:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:40:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:41:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:42:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:43:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:44:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-18 10:45:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
+>>>>>>> Stashed changes
+"} 
+[2023-06-18 10:46:56] production.ERROR: Uncaught Error: Class "Illuminate\Foundation\Auth\akun" not found in C:\xampp\htdocs\E-Market\app\Models\akun.php:11
+Stack trace:
+#0 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(571): include()
+#1 C:\xampp\htdocs\E-Market\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\akun')
+#3 Command line code(1): class_exists('App\\Models\\akun')
+#4 [internal function]: {closure}('App\\Models\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Illuminate\\Foundation\\Auth\\akun\" not found in C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11
+Stack trace:
+#0 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(571): include()
+#1 C:\\xampp\\htdocs\\E-Market\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\akun')
+#3 Command line code(1): class_exists('App\\\\Models\\\\akun')
+#4 [internal function]: {closure}('App\\\\Models\\\\akun')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\E-Market\\app\\Models\\akun.php:11)
+[stacktrace]
+#0 {main}
 "} 

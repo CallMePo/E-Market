@@ -1309,7 +1309,7 @@
           <div class="informasi-toko-i-o-status-bar-black">
             <div class="informasi-toko-bg">
               <img
-                src="public/playground_assets/notchi467-j2u.svg"
+                src="{{ asset('/public/playground_assets/notchi467-j2u.svg') }}"
                 alt="NotchI467"
                 class="informasi-toko-notch"
               />
@@ -1317,35 +1317,35 @@
             <div class="informasi-toko-right-side">
               <div class="informasi-toko-battery">
                 <img
-                  src="public/playground_assets/rectanglei467-7mo.svg"
+                  src="{{ asset('/public/playground_assets/rectanglei467-7mo.svg') }}"
                   alt="RectangleI467"
                   class="informasi-toko-rectangle"
                 />
                 <img
-                  src="public/playground_assets/combinedshapei467-sbbe.svg"
+                  src="{{ asset('/public/playground_assets/combinedshapei467-sbbe.svg') }}"
                   alt="CombinedShapeI467"
                   class="informasi-toko-combined-shape"
                 />
                 <img
-                  src="public/playground_assets/rectanglei467-6fso.svg"
+                  src="{{ asset('/public/playground_assets/rectanglei467-6fso.svg') }}"
                   alt="RectangleI467"
                   class="informasi-toko-rectangle1"
                 />
               </div>
               <img
-                src="public/playground_assets/wifii467-05aa.svg"
+                src="{{ asset('/public/playground_assets/wifii467-05aa.svg') }}"
                 alt="WifiI467"
                 class="informasi-toko-wifi"
               />
               <img
-                src="public/playground_assets/mobilesignali467-i0ho.svg"
+                src="{{ asset('/public/playground_assets/mobilesignali467-i0ho.svg') }}"
                 alt="MobileSignalI467"
                 class="informasi-toko-mobile-signal"
               />
             </div>
             <div class="informasi-toko-left-side">
               <img
-                src="public/playground_assets/svg941i467-f3pm.svg"
+                src="{{ asset('/public/playground_assets/svg941i467-f3pm.svg') }}"
                 alt="SVG941I467"
                 class="informasi-toko-svg941"
               />
@@ -1354,7 +1354,7 @@
           <div class="informasi-toko-i-o-status-bar-black1">
             <div class="informasi-toko-bg1">
               <img
-                src="public/playground_assets/notchi467-qies.svg"
+                src="{{ asset('/public/playground_assets/notchi467-qies.svg') }}"
                 alt="NotchI467"
                 class="informasi-toko-notch1"
               />
@@ -1362,42 +1362,42 @@
             <div class="informasi-toko-right-side1">
               <div class="informasi-toko-battery1">
                 <img
-                  src="public/playground_assets/rectanglei467-onif.svg"
+                  src="{{ asset('/public/playground_assets/rectanglei467-onif.svg') }}"
                   alt="RectangleI467"
                   class="informasi-toko-rectangle2"
                 />
                 <img
-                  src="public/playground_assets/combinedshapei467-t4m.svg"
+                  src="{{ asset('/public/playground_assets/combinedshapei467-t4m.svg') }}"
                   alt="CombinedShapeI467"
                   class="informasi-toko-combined-shape1"
                 />
                 <img
-                  src="public/playground_assets/rectanglei467-xods.svg"
+                  src="{{ asset('/public/playground_assets/rectanglei467-xods.svg') }}"
                   alt="RectangleI467"
                   class="informasi-toko-rectangle3"
                 />
               </div>
               <img
-                src="public/playground_assets/wifii467-6xbn.svg"
+                src="{{ asset('/public/playground_assets/wifii467-6xbn.svg') }}"
                 alt="WifiI467"
                 class="informasi-toko-wifi1"
               />
               <img
-                src="public/playground_assets/mobilesignali467-457y.svg"
+                src="{{ asset('/public/playground_assets/mobilesignali467-457y.svg') }}"
                 alt="MobileSignalI467"
                 class="informasi-toko-mobile-signal1"
               />
             </div>
             <div class="informasi-toko-left-side1">
               <img
-                src="public/playground_assets/svg941i467-igh1.svg"
+                src="{{ asset('/public/playground_assets/svg941i467-igh1.svg') }}"
                 alt="SVG941I467"
                 class="informasi-toko-svg9411"
               />
             </div>
           </div>
           <img
-            src="public/playground_assets/imageblock4673-i6ke-400w.png"
+            src="{{ asset('/public/playground_assets/imageblock4673-i6ke-400w.png') }}"
             alt="ImageBlock4673"
             class="informasi-toko-image-block"
           />
@@ -1407,39 +1407,39 @@
             </div>
             <div class="informasi-toko-tabs">
               <img
-                src="public/playground_assets/rectangle9i467-82s-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle9i467-82s-200h.png') }}"
                 alt="Rectangle9I467"
                 class="informasi-toko-rectangle9"
               />
               <img
-                src="public/playground_assets/rectangle10i467-fnlj-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle10i467-fnlj-200h.png') }}"
                 alt="Rectangle10I467"
                 class="informasi-toko-rectangle10"
               />
               <img
-                src="public/playground_assets/rectangle11i467-wbcb-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle11i467-wbcb-200h.png') }}"
                 alt="Rectangle11I467"
                 class="informasi-toko-rectangle11"
               />
               <img
-                src="public/playground_assets/rectangle12i467-ehg-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle12i467-ehg-200h.png') }}"
                 alt="Rectangle12I467"
                 class="informasi-toko-rectangle12"
               />
               <img
-                src="public/playground_assets/rectangle13i467-d4f-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle13i467-d4f-200h.png') }}"
                 alt="Rectangle13I467"
                 class="informasi-toko-rectangle13"
               />
             </div>
             <img
-              src="public/playground_assets/topdivideri467-0sh-200h.png"
+              src="{{ asset('/public/playground_assets/topdivideri467-0sh-200h.png') }}"
               alt="TopDividerI467"
               class="informasi-toko-top-divider"
             />
           </div>
           <img
-            src="public/playground_assets/ilustrasicaberawit124673-j0e-300h.png"
+            src="{{ asset('/public/playground_assets/ilustrasicaberawit124673-j0e-300h.png') }}"
             alt="ilustrasicaberawit124673"
             class="informasi-toko-ilustrasicaberawit12"
           />
@@ -1449,69 +1449,69 @@
             </div>
             <div class="informasi-toko-tabs1">
               <img
-                src="public/playground_assets/rectangle9i467-1j0n-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle9i467-1j0n-200h.png') }}"
                 alt="Rectangle9I467"
                 class="informasi-toko-rectangle91"
               />
               <img
-                src="public/playground_assets/rectangle10i467-jw-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle10i467-jw-200h.png') }}"
                 alt="Rectangle10I467"
                 class="informasi-toko-rectangle101"
               />
               <img
-                src="public/playground_assets/rectangle11i467-oztui-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle11i467-oztui-200h.png') }}"
                 alt="Rectangle11I467"
                 class="informasi-toko-rectangle111"
               />
               <img
-                src="public/playground_assets/rectangle12i467-tki-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle12i467-tki-200h.png') }}"
                 alt="Rectangle12I467"
                 class="informasi-toko-rectangle121"
               />
               <img
-                src="public/playground_assets/rectangle13i467-cxs9i-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle13i467-cxs9i-200h.png') }}"
                 alt="Rectangle13I467"
                 class="informasi-toko-rectangle131"
               />
             </div>
             <img
-              src="public/playground_assets/topdivideri467-djv-200h.png"
+              src="{{ asset('/public/playground_assets/topdivideri467-djv-200h.png') }}"
               alt="TopDividerI467"
               class="informasi-toko-top-divider1"
             />
           </div>
           <img
-            src="public/playground_assets/swmiconsoutlinecart24673-zjp3.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlinecart24673-zjp3.svg') }}"
             alt="SWMiconsoutlinecart24673"
             class="informasi-toko-s-miconsoutlinecart2"
           />
           <img
-            src="public/playground_assets/swmiconsoutlinelocation14673-e99o.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlinelocation14673-e99o.svg') }}"
             alt="SWMiconsoutlinelocation14673"
             class="informasi-toko-s-miconsoutlinelocation1"
           />
           <img
-            src="public/playground_assets/swmiconsoutlineedit44673-u7yk.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlineedit44673-u7yk.svg') }}"
             alt="SWMiconsoutlineedit44673"
             class="informasi-toko-s-miconsoutlineedit4"
           />
           <img
-            src="public/playground_assets/swmiconsoutlineuser14673-ezmq.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlineuser14673-ezmq.svg') }}"
             alt="SWMiconsoutlineuser14673"
             class="informasi-toko-s-miconsoutlineuser1"
           />
           <img
-            src="public/playground_assets/tokomadjulengkapdan14673-j8a-300h.png"
+            src="{{ asset('/public/playground_assets/tokomadjulengkapdan14673-j8a-300h.png') }}"
             alt="tokomadjulengkapdan14673"
             class="informasi-toko-tokomadjulengkapdan1"
           />
           <img
-            src="public/playground_assets/tokomadjulengkapdan34673-g1u-300h.png"
+            src="{{ asset('/public/playground_assets/tokomadjulengkapdan34673-g1u-300h.png') }}"
             alt="tokomadjulengkapdan34673"
             class="informasi-toko-tokomadjulengkapdan3"
           />
           <img
-            src="public/playground_assets/tokomadjulengkapdan24673-q3x3-300h.png"
+            src="{{ asset('/public/playground_assets/tokomadjulengkapdan24673-q3x3-300h.png') }}"
             alt="tokomadjulengkapdan24673"
             class="informasi-toko-tokomadjulengkapdan2"
           />
@@ -1536,24 +1536,24 @@
             </span>
           </div>
           <img
-            src="public/playground_assets/ellipse1154673-e9uj-200h.png"
+            src="{{ asset('/public/playground_assets/ellipse1154673-e9uj-200h.png') }}"
             alt="Ellipse1154673"
             class="informasi-toko-ellipse115"
           />
           <img
-            src="public/playground_assets/ellipse1164673-7xaa-200h.png"
+            src="{{ asset('/public/playground_assets/ellipse1164673-7xaa-200h.png') }}"
             alt="Ellipse1164673"
             class="informasi-toko-ellipse116"
           />
           <img
-            src="public/playground_assets/ellipse1174673-7mag-200h.png"
+            src="{{ asset('/public/playground_assets/ellipse1174673-7mag-200h.pnggit') }}"
             alt="Ellipse1174673"
             class="informasi-toko-ellipse117"
           />
           <div class="informasi-toko-section-hot-deals">
             <div class="informasi-toko-content-market-block">
               <img
-                src="public/playground_assets/rectangle30i467-vo5e-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-vo5e-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle30"
               />
@@ -1566,7 +1566,7 @@
             </div>
             <div class="informasi-toko-content-market-block01">
               <img
-                src="public/playground_assets/rectangle30i467-56o-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-56o-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3001"
               />
@@ -1579,7 +1579,7 @@
             </div>
             <div class="informasi-toko-content-market-block02">
               <img
-                src="public/playground_assets/rectangle30i467-hvwhj-200w.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-hvwhj-200w.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3002"
               />
@@ -1592,7 +1592,7 @@
             </div>
             <div class="informasi-toko-content-market-block03">
               <img
-                src="public/playground_assets/rectangle30i467-gssa-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-gssa-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3003"
               />
@@ -1612,24 +1612,24 @@
             </span>
           </div>
           <img
-            src="public/playground_assets/telurayam234673-v5vq-200h.png"
+            src="{{ asset('/public/playground_assets/telurayam234673-v5vq-200h.png') }}"
             alt="telurayam234673"
             class="informasi-toko-telurayam23"
           />
           <img
-            src="public/playground_assets/pedagangdagingdemo34673-uyme-200h.png"
+            src="{{ asset('/public/playground_assets/pedagangdagingdemo34673-uyme-200h.png') }}"
             alt="pedagangdagingdemo34673"
             class="informasi-toko-pedagangdagingdemo3"
           />
           <img
-            src="public/playground_assets/ilustrasicaberawit134673-13li-200w.png"
+            src="{{ asset('/public/playground_assets/ilustrasicaberawit134673-13li-200w.png') }}"
             alt="ilustrasicaberawit134673"
             class="informasi-toko-ilustrasicaberawit13"
           />
           <div class="informasi-toko-section-hot-deals1">
             <div class="informasi-toko-content-market-block04">
               <img
-                src="public/playground_assets/rectangle30i467-itqo-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-itqo-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3004"
               />
@@ -1642,7 +1642,7 @@
             </div>
             <div class="informasi-toko-content-market-block05">
               <img
-                src="public/playground_assets/rectangle30i467-82u7-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-82u7-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3005"
               />
@@ -1655,7 +1655,7 @@
             </div>
             <div class="informasi-toko-content-market-block06">
               <img
-                src="public/playground_assets/rectangle30i467-irrh-200w.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-irrh-200w.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3006"
               />
@@ -1668,7 +1668,7 @@
             </div>
             <div class="informasi-toko-content-market-block07">
               <img
-                src="public/playground_assets/rectangle30i467-914l-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-914l-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3007"
               />
@@ -1685,24 +1685,24 @@
             </div>
           </div>
           <img
-            src="public/playground_assets/telurayam244673-nqlp-200h.png"
+            src="{{ asset('/public/playground_assets/telurayam244673-nqlp-200h.png') }}"
             alt="telurayam244673"
             class="informasi-toko-telurayam24"
           />
           <img
-            src="public/playground_assets/pedagangdagingdemo44673-qvxp-200h.png"
+            src="{{ asset('/public/playground_assets/pedagangdagingdemo44673-qvxp-200h.png') }}"
             alt="pedagangdagingdemo44673"
             class="informasi-toko-pedagangdagingdemo4"
           />
           <img
-            src="public/playground_assets/ilustrasicaberawit144673-l5j-200w.png"
+            src="{{ asset('/public/playground_assets/ilustrasicaberawit144673-l5j-200w.png') }}"
             alt="ilustrasicaberawit144673"
             class="informasi-toko-ilustrasicaberawit14"
           />
           <div class="informasi-toko-section-hot-deals2">
             <div class="informasi-toko-content-market-block08">
               <img
-                src="public/playground_assets/rectangle30i467-ke7-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-ke7-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3008"
               />
@@ -1715,7 +1715,7 @@
             </div>
             <div class="informasi-toko-content-market-block09">
               <img
-                src="public/playground_assets/rectangle30i467-t7k2-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-t7k2-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3009"
               />
@@ -1728,7 +1728,7 @@
             </div>
             <div class="informasi-toko-content-market-block10">
               <img
-                src="public/playground_assets/rectangle30i467-421f-200w.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-421f-200w.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3010"
               />
@@ -1741,7 +1741,7 @@
             </div>
             <div class="informasi-toko-content-market-block11">
               <img
-                src="public/playground_assets/rectangle30i467-8ex-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-8ex-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3011"
               />
@@ -1761,19 +1761,19 @@
             </span>
           </div>
           <img
-            src="public/playground_assets/pedagangdagingdemo54673-835-200h.png"
+            src="{{ asset('/public/playground_assets/pedagangdagingdemo54673-835-200h.png') }}"
             alt="pedagangdagingdemo54673"
             class="informasi-toko-pedagangdagingdemo5"
           />
           <img
-            src="public/playground_assets/ilustrasicaberawit154673-9tw-200w.png"
+            src="{{ asset('/public/playground_assets/ilustrasicaberawit154673-9tw-200w.png') }}"
             alt="ilustrasicaberawit154673"
             class="informasi-toko-ilustrasicaberawit15"
           />
           <div class="informasi-toko-section-hot-deals3">
             <div class="informasi-toko-content-market-block12">
               <img
-                src="public/playground_assets/rectangle30i467-02d-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-02d-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3012"
               />
@@ -1785,13 +1785,13 @@
               </span>
             </div>
             <img
-              src="public/playground_assets/telurayam245418-tpn-200h.png"
+              src="{{ asset('/public/playground_assets/telurayam245418-tpn-200h.png') }}"
               alt="telurayam245418"
               class="informasi-toko-telurayam241"
             />
             <div class="informasi-toko-content-market-block13">
               <img
-                src="public/playground_assets/rectangle30i467-lmrh-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-lmrh-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3013"
               />
@@ -1804,7 +1804,7 @@
             </div>
             <div class="informasi-toko-content-market-block14">
               <img
-                src="public/playground_assets/rectangle30i467-7c-200w.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-7c-200w.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3014"
               />
@@ -1817,7 +1817,7 @@
             </div>
             <div class="informasi-toko-content-market-block15">
               <img
-                src="public/playground_assets/rectangle30i467-jfkk-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle30i467-jfkk-200h.png') }}"
                 alt="Rectangle30I467"
                 class="informasi-toko-rectangle3015"
               />
@@ -1834,17 +1834,17 @@
             </div>
           </div>
           <img
-            src="public/playground_assets/pedagangdagingdemo64673-ixvo-200h.png"
+            src="{{ asset('/public/playground_assets/pedagangdagingdemo64673-ixvo-200h.png') }}"
             alt="pedagangdagingdemo64673"
             class="informasi-toko-pedagangdagingdemo6"
           />
           <img
-            src="public/playground_assets/ilustrasicaberawit164673-anwk-200w.png"
+            src="{{ asset('/public/playground_assets/ilustrasicaberawit164673-anwk-200w.png') }}"
             alt="ilustrasicaberawit164673"
             class="informasi-toko-ilustrasicaberawit16"
           />
           <img
-            src="public/playground_assets/swmiconsoutlinecoin4673-wk.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlinecoin4673-wk.svg') }}"
             alt="SWMiconsoutlinecoin4673"
             class="informasi-toko-s-miconsoutlinecoin"
           />

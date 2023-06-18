@@ -1157,7 +1157,7 @@
                 </a>
                 <div class="cari-barang-home-section-hot-deals">
                     <div class="cari-barang-home-content-market-block">
-                        <img alt="Rectangle30I151" src="public/playground_assets/rectangle30i151-ck1-200h.png"
+                        <img alt="Rectangle30I151" src="{{ asset('/public/playground_assets/rectangle30i151-ck1-200h.png') }}"
                             class="cari-barang-home-rectangle30" />
                         <span class="cari-barang-home-text07 UI-14Regular">
                             <span>Telur 1 Kg</span>
@@ -1179,7 +1179,7 @@
                         <span>Toko Barokah</span>
                     </span>
                     <div class="cari-barang-home-content-market-block1">
-                        <img alt="Rectangle30I151" src="public/playground_assets/rectangle30i151-flp7-200h.png"
+                        <img alt="Rectangle30I151" src="{{ asset('/public/playground_assets/rectangle30i151-flp7-200h.png') }}"
                             class="cari-barang-home-rectangle301" />
                         <span class="cari-barang-home-text19 UI-14Regular">
                             <span>Daging Sapi 1 Kg</span>
@@ -1196,7 +1196,7 @@
                     </span>
                     <a href="{{ route('informasibarang') }}" class="cari-barang-home-navlink01">
                         <div class="cari-barang-home-content-market-block2">
-                            <img alt="Rectangle30I151" src="public/playground_assets/rectangle30i151-272s-200w.png"
+                            <img alt="Rectangle30I151" src="{{ asset('/public/playground_assets/rectangle30i151-272s-200w.png') }}"
                                 class="cari-barang-home-rectangle302" />
                             <span class="cari-barang-home-text27 UI-14Regular">
                                 <span>Cabai Rawit 250 gr</span>
@@ -1207,7 +1207,7 @@
                         </div>
                     </a>
                     <div class="cari-barang-home-content-market-block3">
-                        <img alt="Rectangle30I151" src="public/playground_assets/rectangle30i151-dfj-200h.png"
+                        <img alt="Rectangle30I151" src="{{ asset('/public/playground_assets/rectangle30i151-dfj-200h.png') }}"
                             class="cari-barang-home-rectangle303" />
                         <span class="cari-barang-home-text31 UI-14Regular">
                             <span>
@@ -1226,7 +1226,7 @@
                 </div>
                 <div class="cari-barang-home-section-trending">
                     <div class="cari-barang-home-content-market-block4">
-                        <img alt="Rectangle30I151" src="public/playground_assets/rectangle30i151-c9o8-200h.png"
+                        <img alt="Rectangle30I151" src="{{ asset('/public/playground_assets/rectangle30i151-c9o8-200h.png') }}"
                             class="cari-barang-home-rectangle304" />
                         <span class="cari-barang-home-text40 UI-14Regular">
                             <span>Apel Fuji 500 gr</span>
@@ -1236,7 +1236,7 @@
                         </span>
                     </div>
                     <div class="cari-barang-home-content-market-block5">
-                        <img alt="Rectangle30I151" src="public/playground_assets/rectangle30i151-a2dz-200h.png"
+                        <img alt="Rectangle30I151" src="{{ asset('/public/playground_assets/rectangle30i151-a2dz-200h.png') }}"
                             class="cari-barang-home-rectangle305" />
                         <span class="cari-barang-home-text44 UI-14Regular">
                             <span>Pisang Kepok 1 Sisir</span>
@@ -1246,7 +1246,7 @@
                         </span>
                     </div>
                     <div class="cari-barang-home-content-market-block6">
-                        <img alt="Rectangle30I151" src="public/playground_assets/rectangle30i151-f9v4-200w.png"
+                        <img alt="Rectangle30I151" src="{{ asset('/public/playground_assets/rectangle30i151-f9v4-200w.png') }}"
                             class="cari-barang-home-rectangle306" />
                         <span class="cari-barang-home-text48 UI-14Regular">
                             <span>Jeruk Lemon 500 gr</span>
@@ -1256,7 +1256,7 @@
                         </span>
                     </div>
                     <div class="cari-barang-home-content-market-block7">
-                        <img alt="Rectangle30I151" src="public/playground_assets/rectangle30i151-chrl-200h.png"
+                        <img alt="Rectangle30I151" src="{{ asset('/public/playground_assets/rectangle30i151-chrl-200h.png') }}"
                             class="cari-barang-home-rectangle307" />
                         <span class="cari-barang-home-text52 UI-14Regular">
                             <span>
@@ -1278,20 +1278,20 @@
                         <div class="cari-barang-home-home-indicator"></div>
                     </div>
                     <div class="cari-barang-home-tabs">
-                        <img alt="Rectangle9I151" src="public/playground_assets/rectangle9i151-1nml-200h.png"
+                        <img alt="Rectangle9I151" src="{{ asset('/public/playground_assets/rectangle9i151-1nml-200h.png') }}"
                             class="cari-barang-home-rectangle9" />
                         <a href="cari-toko-home.html" class="cari-barang-home-navlink02">
-                            <img alt="Rectangle10I151" src="public/playground_assets/rectangle10i151-gj97-200h.png"
+                            <img alt="Rectangle10I151" src="{{ asset('/public/playground_assets/rectangle10i151-gj97-200h.png') }}"
                                 class="cari-barang-home-rectangle10" />
                         </a>
-                        <img alt="Rectangle11I151" src="public/playground_assets/rectangle11i151-0x9b-200h.png"
+                        <img alt="Rectangle11I151" src="{{ asset('/public/playground_assets/rectangle11i151-0x9b-200h.png') }}"
                             class="cari-barang-home-rectangle11" />
-                        <img alt="Rectangle12I151" src="public/playground_assets/rectangle12i151-tyrn-200h.png"
+                        <img alt="Rectangle12I151" src="{{ asset('/public/playground_assets/rectangle12i151-tyrn-200h.png') }}"
                             class="cari-barang-home-rectangle12" />
-                        <img alt="Rectangle13I151" src="public/playground_assets/rectangle13i151-o1wj-200h.png"
+                        <img alt="Rectangle13I151" src="{{ asset('/public/playground_assets/rectangle13i151-o1wj-200h.png') }}"
                             class="cari-barang-home-rectangle13" />
                     </div>
-                    <img alt="TopDividerI151" src="public/playground_assets/topdivideri151-zdu3-200h.png"
+                    <img alt="TopDividerI151" src="{{ asset('/public/playground_assets/topdivideri151-zdu3-200h.png') }}"
                         class="cari-barang-home-top-divider" />
                 </div>
                 <div class="cari-barang-home-i-o-bottom-bar-tabs1">
@@ -1299,84 +1299,84 @@
                         <div class="cari-barang-home-home-indicator1"></div>
                     </div>
                     <div class="cari-barang-home-tabs1">
-                        <img alt="Rectangle9I449" src="public/playground_assets/rectangle9i449-qg9-200h.png"
+                        <img alt="Rectangle9I449" src="{{ asset('/public/playground_assets/rectangle9i449-qg9-200h.png') }}"
                             class="cari-barang-home-rectangle91" />
                         <a href="cari-toko-home.html" class="cari-barang-home-navlink03">
-                            <img alt="Rectangle10I449" src="public/playground_assets/rectangle10i449-8xyjj-200h.png"
+                            <img alt="Rectangle10I449" src="{{ asset('/public/playground_assets/rectangle10i449-8xyjj-200h.png') }}"
                                 class="cari-barang-home-rectangle101" />
                         </a>
                         <a href="{{ url('/pengaturan-akun') }}" class="cari-barang-home-navlink04">
-                            <img alt="Rectangle11I449" src="public/playground_assets/rectangle11i449-hnce-200h.png"
+                            <img alt="Rectangle11I449" src="{{ asset('/public/playground_assets/rectangle11i449-hnce-200h.png') }}"
                                 class="cari-barang-home-rectangle111" />
                         </a>
                         <a href="etalase-toko-home.html" class="cari-barang-home-navlink05">
-                            <img alt="Rectangle12I449" src="public/playground_assets/rectangle12i449-r25-200h.png"
+                            <img alt="Rectangle12I449" src="{{ asset('/public/playground_assets/rectangle12i449-r25-200h.png') }}"
                                 class="cari-barang-home-rectangle121" />
                         </a>
                         <a href="{{ route('informasihargabarang') }}" class="cari-barang-home-navlink06">
-                            <img alt="Rectangle13I449" src="public/playground_assets/rectangle13i449-jcj3-200h.png"
+                            <img alt="Rectangle13I449" src="{{ asset('/public/playground_assets/rectangle13i449-jcj3-200h.png') }}"
                                 class="cari-barang-home-rectangle131" />
                         </a>
                     </div>
-                    <img alt="TopDividerI449" src="public/playground_assets/topdivideri449-7l0o-200h.png"
+                    <img alt="TopDividerI449" src="{{ asset('/public/playground_assets/topdivideri449-7l0o-200h.png') }}"
                         class="cari-barang-home-top-divider1" />
                 </div>
-                <img alt="telurayam212211" src="public/playground_assets/telurayam212211-zc2t-200h.png"
+                <img alt="telurayam212211" src="{{ asset('/public/playground_assets/telurayam212211-zc2t-200h.png') }}"
                     class="cari-barang-home-telurayam21" />
-                <img alt="pedagangdagingdemo12211" src="public/playground_assets/pedagangdagingdemo12211-xmg-200h.png"
+                <img alt="pedagangdagingdemo12211" src="{{ asset('/public/playground_assets/pedagangdagingdemo12211-xmg-200h.png') }}"
                     class="cari-barang-home-pedagangdagingdemo1" />
-                <img alt="SWMiconsoutlinecart22211" src="public/playground_assets/swmiconsoutlinecart22211-p4qp.svg"
+                <img alt="SWMiconsoutlinecart22211" src="{{ asset('/public/playground_assets/swmiconsoutlinecart22211-p4qp.svg') }}"
                     class="cari-barang-home-s-miconsoutlinecart2" />
                 <a href="cari-toko-home.html" class="cari-barang-home-navlink07">
                     <img alt="SWMiconsoutlinelocation12211"
-                        src="public/playground_assets/swmiconsoutlinelocation12211-9arvl.svg"
+                        src="{{ asset('/public/playground_assets/swmiconsoutlinelocation12211-9arvl.svg') }}"
                         class="cari-barang-home-s-miconsoutlinelocation1" />
                 </a>
                 <a href="etalase-toko-home.html" class="cari-barang-home-navlink08">
                     <img alt="SWMiconsoutlineedit42211"
-                        src="public/playground_assets/swmiconsoutlineedit42211-vyde.svg"
+                        src="{{ asset('/public/playground_assets/swmiconsoutlineedit42211-vyde.svg') }}"
                         class="cari-barang-home-s-miconsoutlineedit4" />
                 </a>
                 <a href="{{ route('pengaturan-akun') }}" class="cari-barang-home-navlink09">
                     <img alt="SWMiconsoutlineuser12211"
-                        src="public/playground_assets/swmiconsoutlineuser12211-dvyd.svg"
+                        src="{{ asset('/public/playground_assets/swmiconsoutlineuser12211-dvyd.svg') }}"
                         class="cari-barang-home-s-miconsoutlineuser1" />
                 </a>
                 <img alt="zayidan70951637202112211"
-                    src="public/playground_assets/zayidan70951637202112211-zg9-200h.png"
+                    src="{{ asset('/public/playground_assets/zayidan70951637202112211-zg9-200h.png') }}"
                     class="cari-barang-home-zayidan7095163720211" />
                 <img alt="IMAGE0a68dfa8c9d31bf4a85bdf75533ef026jpg720x720q802211"
-                    src="public/playground_assets/image0a68dfa8c9d31bf4a85bdf75533ef026jpg720x720q802211-ros-200h.png"
+                    src="{{ asset('/public/playground_assets/image0a68dfa8c9d31bf4a85bdf75533ef026jpg720x720q802211-ros-200h.png') }}"
                     class="cari-barang-home-image0a68dfa8c9d31bf4a85bdf75533ef026jpg720x720q80" />
                 <img alt="IMAGE35b4bb500ea14a399606fa6b183211b312211"
-                    src="public/playground_assets/image35b4bb500ea14a399606fa6b183211b312211-yhma-200w.png"
+                    src="{{ asset('/public/playground_assets/image35b4bb500ea14a399606fa6b183211b312211-yhma-200w.png') }}"
                     class="cari-barang-home-image35b4bb500ea14a399606fa6b183211b31" />
                 <a href="{{ route('informasibarang') }}" class="cari-barang-home-navlink10">
                     <img alt="ilustrasicaberawit112211"
-                        src="public/playground_assets/ilustrasicaberawit112211-yfqo-200w.png"
+                        src="{{ asset('/public/playground_assets/ilustrasicaberawit112211-yfqo-200w.png') }}"
                         class="cari-barang-home-ilustrasicaberawit11" />
                 </a>
-                <img alt="telurayam224492" src="public/playground_assets/telurayam224492-zvpa-200h.png"
+                <img alt="telurayam224492" src="{{ asset('/public/playground_assets/telurayam224492-zvpa-200h.png') }}"
                     class="cari-barang-home-telurayam22" />
                 <img alt="pedagangdagingdemo24492"
-                    src="public/playground_assets/pedagangdagingdemo24492-8v5c-200h.png"
+                    src="{{ asset('/public/playground_assets/pedagangdagingdemo24492-8v5c-200h.png') }}"
                     class="cari-barang-home-pedagangdagingdemo2" />
                 <a href="{{ route('informasibarang') }}" class="cari-barang-home-navlink10">
                     <img alt="ilustrasicaberawit124492"
-                        src="public/playground_assets/ilustrasicaberawit124492-w36p-200w.png"
+                        src="{{ asset('/public/playground_assets/ilustrasicaberawit124492-w36p-200w.png') }}"
                         class="cari-barang-home-ilustrasicaberawit12" />
                 </a>
                 <img alt="c222fd1e82724624b4e212029ad37c2314542"
-                    src="public/playground_assets/c222fd1e82724624b4e212029ad37c2314542-w1rs-200h.png"
+                    src="{{ asset('/public/playground_assets/c222fd1e82724624b4e212029ad37c2314542-w1rs-200h.png') }}"
                     class="cari-barang-home-c222fd1e82724624b4e212029ad37c231" />
                 <img alt="IMAGE0856826001570024053800pxKepokbananaIndonesia14542"
-                    src="public/playground_assets/image0856826001570024053800pxkepokbananaindonesia14542-iuhl-200h.png"
+                    src="{{ asset('/public/playground_assets/image0856826001570024053800pxkepokbananaindonesia14542-iuhl-200h.png') }}"
                     class="cari-barang-home-image0856826001570024053800px-kepokbanana-indonesia1" />
                 <a href="{{ route('informasihargabarang') }}" class="cari-barang-home-navlink10">
-                    <img alt="SWMiconsoutlinecoin4542" src="public/playground_assets/swmiconsoutlinecoin4542-itpr.svg"
+                    <img alt="SWMiconsoutlinecoin4542" src="{{ asset('/public/playground_assets/swmiconsoutlinecoin4542-itpr.svg') }}"
                         class="cari-barang-home-s-miconsoutlinecoin" />
                 </a>
-                <img alt="IMAGE220127678p14542" src="public/playground_assets/image220127678p14542-qq7s-200w.png"
+                <img alt="IMAGE220127678p14542" src="{{ asset('/public/playground_assets/image220127678p14542-qq7s-200w.png') }}"
                     class="cari-barang-home-image220127678p1" />
             </div>
         </div>
