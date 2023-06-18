@@ -1,56 +1,81 @@
-<style>
-    .alert{
-        --bs-alert-bg:transparent;
-        --bs-alert-padding-x:1rem;
-        --bs-alert-padding-y:1rem;
-        --bs-alert-margin-bottom:1rem;
-        --bs-alert-color:inherit;
-        --bs-alert-border-color:transparent;
-        --bs-alert-border:1px solid
-        var(--bs-alert-border-color);
-        --bs-alert-border-radius:0.375rem;
-        position:relative;
-        padding:var(--bs-alert-padding-y) var(--bs-alert-padding-x);
-        margin-bottom:var(--bs-alert-margin-bottom);
-        color:var(--bs-alert-color);
-        background-color:var(--bs-alert-bg);
-        border:var(--bs-alert-border);
-        border-radius:var(--bs-alert-border-radius)}
-</style>
-<div class="row justify-content-center mt-5">
-    <div class="col-lg-4">
-        <div class="card">
-            <div class="card-header">
-                <h1 class="card-title">Register</h1>
-            </div>
-            <div class="card-body">
-                @if(Session::has('success'))
-                    <div class="alert alert-success" role="alert">
-                        {{ Session::get('success') }}
-                    </div>
-                @endif
-                <form action="{{ route('register') }}" method="POST">
-                    @csrf
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" name="name" class="form-control" id="name" placeholder="John Doe" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email address</label>
-                        <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" name="password" class="form-control" id="password" required>
-                    </div>
-                    <div class="mb-3">
-                        <div class="d-grid">
-                            <button class="btn btn-primary">Register</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
+<form action="/upload" method="POST" enctype="multipart/form-data">
+    <div class="container">
+       <div class="wrapper">
+          <div class="image">
+             <img alt="">
+          </div>
+          <div class="content">
+             <div class="icon">
+                <i class="fas fa-cloud-upload-alt"></i>
+             </div>
+             <div class="text">
+                No file chosen, yet!
+             </div>
+          </div>
+          <div id="cancel-btn">
+             <i class="fas fa-times"></i>
+          </div>
+          <div class="file-name">
+             File name here
+          </div>
+       </div>
+       <button id="custom-btn">Choose a file</button>
+       <input id="default-btn" type="file" name="image" hidden> <br>
+       <input type="submit" value="Submit">
     </div>
-</div>
+ </form>
 
+ <script>
+    const wrapper = document.querySelector(".wrapper");
+    const fileName = document.querySelector(".file-name");
+    const defaultBtn = document.querySelector("#default-btn");
+    const customBtn = document.querySelector("#custom-btn");
+    const cancelBtn = document.querySelector("#cancel-btn i");
+    const img = document.querySelector("img");
+    let regExp = /[0-9a-zA-Z\^\&\'\@\{\}\[\]\,\$\=\!\-\#\(\)\.\%\+\~\_ ]+$/;
+
+    function defaultBtnActive() {
+       defaultBtn.click();
+    }
+
+    defaultBtn.addEventListener("change", function() {
+       const file = this.files[0];
+       if (file) {
+          const reader = new FileReader();
+          reader.onload = function() {
+             const result = reader.result;
+             img.src = result;
+             wrapper.classList.add("active");
+          }
+          cancelBtn.addEventListener("click", function() {
+             img.src = "";
+             wrapper.classList.remove("active");
+          })
+          reader.readAsDataURL(file);
+       }
+       if (this.value) {
+          let valueStore = this.value.match(regExp);
+          fileName.textContent = valueStore;
+       }
+    });
+
+    document.querySelector('form').addEventListener('submit', function(event) {
+       event.preventDefault(); // Prevent the form from submitting immediately
+
+       // Access the form data and perform any necessary actions
+       const formData = new FormData(this);
+       // ... Perform additional actions if needed
+
+       // Submit the form data
+       fetch(this.action, {
+          method: this.method,
+          body: formData
+       })
+       .then(response => {
+          // Handle the response from the server if needed
+       })
+       .catch(error => {
+          // Handle any errors that occur during form submission
+       });
+    });
+ </script>

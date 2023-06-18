@@ -23,16 +23,50 @@ class TokoController extends Controller
         return view('kontaktoko');
     }
 
-    public function buattokoPost(){
-        $toko = new Toko();
+    public function buattokoPost(Request $request){
 
-        $toko->namaToko = $request->namaToko;
-        $toko->bukaToko = $request->bukaToko;
-        $toko->tutupToko = $request->tutupToko;
-        $toko->letakPasar = $request->letakPasar;
-        $toko->lokasiPasar = $request->lokasiPasar;
-        $toko->save();
-        return view('buattoko3');
+        $validated = $request->validate([
+            'fotoToko'=>'required |image',
+            'namaToko'=>'required',
+            'jamoperasiToko' =>'required',
+            'kotaToko' =>'required',
+            'lokasiToko' =>'required',
+        ]);
+
+       // dd($validated);
+
+        $imagePath = $request->file('fotoToko')->store('fotoToko');
+        $bukaToko = $request->input('jamoperasiToko');
+        $namaToko = $request->input('namaToko');
+        $letakPasar =$request->input('kotaToko');
+        $lokasiToko =$request->input('lokasiToko');
+        $pasar_id =$request->input('pasar_id');
+        $akun_id =$request->input('akun_id');
+
+        $toko = new Toko();
+$toko->fotoToko = $imagePath;
+$toko->jamoperasiToko = $bukaToko;
+$toko->namaToko = $namaToko;
+$toko->kotaToko = $letakPasar;
+$toko->lokasiToko = $lokasiToko;
+$toko->pasar_id = $pasar_id;
+$toko->akun_id = $akun_id;
+
+$toko->save();
+
+//dd($toko);
+
+
+        return redirect()->back()->with('success','jos');
+        // $toko = new Toko();
+
+        // $toko->namaToko = $request->namaToko;
+        // $toko->bukaToko = $request->bukaToko;
+        // $toko->tutupToko = $request->tutupToko;
+        // $toko->letakPasar = $request->letakPasar;
+        // $toko->lokasiPasar = $request->lokasiPasar;
+        // $toko->save();
+        // return view('buattoko3');
     }
     public function index(){
 

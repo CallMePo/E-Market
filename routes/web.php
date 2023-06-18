@@ -49,7 +49,7 @@ Route::get('/informasitoko', [InformasiTokoController::class, 'melihatInfoToko']
 Route::get('/buattoko1', [TokoController::class, 'buattoko1'])->name('buattoko1');
 Route::get('/buattoko2', [TokoController::class, 'buattoko2'])->name('buattoko2');
 Route::get('/buattoko3', [TokoController::class, 'buattoko3'])->name('buattoko3');
-Route::post('/buattoko2', [TokoController::class, 'buattoko2post'])->name('buattoko2post');
+Route::post('/buattoko2', [TokoController::class, 'buattokopost'])->name('buattoko2post');
 
 //CRUD
 Route::get('/index', [TokoController::class, 'index']);
