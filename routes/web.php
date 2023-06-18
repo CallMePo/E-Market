@@ -30,9 +30,9 @@ use App\Http\Controllers\AturEtalaseTokoController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 /*Route::controller(SignUpController::class)->group(function() {
     Route::get('/formulir', 'formulir');
@@ -93,3 +93,15 @@ Route::get('/open.facebook', [AlihkanController::class, 'openFacebook'])->name('
 
 ROUTE::get('/pengaturan-akun', [UserController::class, 'pengaturanAkun'])->name('pengaturan-akun')->middleware('auth');
 
+// rizano
+Route::get('/', [homeController::class, 'landingPage']);
+Route::get('/statistikPasar/{id}', [statistikController::class, 'statistikaPasar']);
+Route::get('/statistikToko/{id}', [statistikController::class, 'statistikaToko']);
+Route::get('/cariBarangHome', [homeController::class, 'cariBarangHome']);
+Route::get('/cariTokoHome', [homeController::class, 'cariTokoHome']);
+Route::get('/pengaturanAkun', [homeController::class, 'pengaturanAkun']);
+Route::get('/etalaseTokoHome', [homeController::class, 'etalaseToko']);
+Route::get('/hargaBarangHome', [homeController::class, 'hargaBarang']);
+Route::get('/cariPasarHome', [homeController::class, 'cariPasarHome']);
+Route::get('/cariToko', [TokoController::class, 'CariToko']);
+Route::get('/cariBarang', [BarangController::class, 'CariBarang']);
