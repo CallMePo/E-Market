@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function pengaturanAkun($id)
+    public function pengaturanAkun()
     {
-        $user = User::find($id);
+        $user = User::findorFail(auth()->id());
         return view('pengaturan-akun', compact('user'));
     }
 

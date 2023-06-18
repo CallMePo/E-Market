@@ -2,20 +2,23 @@
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\SignUpController;
-use App\Http\Controllers\InformasiTokoController;
-use App\Http\Controllers\TokoController;
-use App\Http\Controllers\EditBarangController;
-use App\Http\Controllers\LupaPasswordController;
-use App\Http\Controllers\SignOutController;
-use App\Http\Controllers\PreviewBarangController;
-use App\Http\Controllers\HapusBarangController;
-use App\Http\Controllers\AturEtalaseTokoController;
-use App\Http\Controllers\BarangController;
 use App\Http\Controllers\homeController;
-use App\Http\Controllers\statistikController;
+use App\Http\Controllers\TokoController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\BarangController;
+use App\Http\Controllers\SignUpController;
 use App\Http\Controllers\AlihkanController;
+use App\Http\Controllers\SignOutController;
+use App\Http\Controllers\statistikController;
+use App\Http\Controllers\EditBarangController;
+use App\Http\Controllers\HapusBarangController;
+use App\Http\Controllers\LupaPasswordController;
+use App\Http\Controllers\InformasiTokoController;
+use App\Http\Controllers\PreviewBarangController;
+use App\Http\Controllers\AturEtalaseTokoController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -46,13 +49,13 @@ Route::get('/informasitoko', [InformasiTokoController::class, 'melihatInfoToko']
 Route::get('/buattoko1', [TokoController::class, 'buattoko1'])->name('buattoko1');
 Route::get('/buattoko2', [TokoController::class, 'buattoko2'])->name('buattoko2');
 Route::get('/buattoko3', [TokoController::class, 'buattoko3'])->name('buattoko3');
-Route::post('/buattoko2', [TokoController::class, 'buattoko2post'])->name('buattoko2');
+Route::post('/buattoko2', [TokoController::class, 'buattoko2post'])->name('buattoko2post');
 
 //CRUD
 Route::get('/index', [TokoController::class, 'index']);
 
 //Routing Log Out//
-Route::get('logout',[SignOutController::class, 'logout'])->name('logout');
+Route::get('logout',[SignOutController::class, 'logout'])->name('logout')->middleware('auth');
 
 //Routing Lupa Password//
 Route::get('forgot-password', [LupaPasswordController::class, 'forgotpassword']);
@@ -78,7 +81,7 @@ Route::get('/emarket', function () {
     return view('home');
 });
 
-Route::get('/signin', [LoginController::class, 'signin'])->name('signin');
+Route::get('/signin', [LoginController::class, 'signin'])->name('signin')->middleware('guest');
 Route::post('/signin', [LoginController::class, 'signinPost'])->name('signin');
 Route::get('/home', [LoginController::class, 'home'])->name('home');
 Route::get('/informasihargabarang', [BarangController::class, 'showListHargaBarang'])->name('informasihargabarang');
@@ -87,3 +90,6 @@ Route::get('/informasitoko', [TokoController::class, 'showDetailToko'])->name('i
 Route::get('/kontaktoko', [TokoController::class, 'showKontakToko'])->name('kontaktoko');
 Route::get('/open.whatsapp', [AlihkanController::class, 'openWhatsApp'])->name('open.whatsapp');
 Route::get('/open.facebook', [AlihkanController::class, 'openFacebook'])->name('open.facebook');
+
+ROUTE::get('/pengaturan-akun', [UserController::class, 'pengaturanAkun'])->name('pengaturan-akun')->middleware('auth');
+

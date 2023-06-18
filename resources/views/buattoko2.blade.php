@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="resources\css\nj-timepick.css">
+    {{-- <link rel="stylesheet" href="resources\css\nj-timepick.css">
     <link rel="stylesheet" href="resources\css\style.css">
     <script src="resources\js\index.js"></script>
     <script src="/path/to/cdn/jquery.min.js"></script>
-    <script src="resources\js\time-picker.js"></script>
+    <script src="resources\js\time-picker.js"></script> --}}
     <link rel="stylesheet" href="resources\css\buattoko2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
@@ -169,13 +169,18 @@
     </style>
 
     <div class="container">
+
         <div class="wrapper">
+            <div class="image">
+            <img alt="">
+            </div>
             <div class="content">
                 <div class="icon">
                     <i class="fas fa-cloud-upload-alt"></i>
                 </div>
                 <div class="text">
                     No file chosen, yet!
+
                 </div>
             </div>
             <div id="cancel-btn">
@@ -184,11 +189,15 @@
             <div class="file-name">
                 File name here
             </div>
+
         </div>
         <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
-        <input id="default-btn" type="file" hidden>
+        <input  id="default-btn" type="file" hidden> <br>
+
+
+
         <div class="form-group">
-            <form action="{{ route('buattoko2') }}" method="POST">
+            <form action="{{ route('buattoko2post') }}" method="POST">
             <input type="text" name="namatoko" placeholder="Nama Toko" /> <br/>
             <input type="text" name="letakpasar" placeholder="Letak Pasar"/><br/>
             <input type="text" name="lokasitoko" placeholder="Lokasi Toko"/><br/>
@@ -237,7 +246,7 @@
                     wrapper.classList.add("active");
                 }
                 cancelBtn.addEventListener("click", function() {
-                    img.src = "";
+                    img.src = "" ;
                     wrapper.classList.remove("active");
                 })
                 reader.readAsDataURL(file);
@@ -247,13 +256,13 @@
                 fileName.textContent = valueStore;
             }
         });
-        var myDrop = new drop({
-            selector: '#myMulti'
-        });
-        var myDrop =new drop({
-            selector: '#myMulti'
-            preselected: [0, 2]
-        });
+        // var myDrop = new drop({
+        //     selector: '#myMulti'
+        // });
+        // var myDrop =new drop({
+        //     selector: '#myMulti'
+        //     preselected: [0, 2]
+        // });
     </script>
 </body>
 
