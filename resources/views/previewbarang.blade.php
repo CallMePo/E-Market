@@ -324,6 +324,7 @@
         </div>
         <div class="bottombar">
             <div class="bottombackground">
+                {{-- changed --}}
             </div>
             <div class="tabs">
                 <a href="{{ url('cariBarangHome') }}"><img src="{{asset('/public/playground_assets/rectangle95268-wdne-200h.png')}}"
