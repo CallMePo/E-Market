@@ -12,8 +12,7 @@
     <body>
     <div class="container">
         <h1>{{ $namaToko }}</h1>
-        <a href="/cariBarangHome"><button type="button" class="btn btn-warning">Buat Barang</button></a>
-        <a href=""><button type="button" class="btn btn-warning">Buat Barang</button></a>
+        <a href="/buatbarang"><button type="button" class="btn btn-warning">Buat Barang</button></a>
         <a href="/statistikToko/{{ $idToko }}"><button type="button" class="btn btn-secondary">Statistik Toko</button></a>
         <table class="table table-bordered table-striped">
             <thead>

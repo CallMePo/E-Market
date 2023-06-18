@@ -1107,7 +1107,7 @@
                 <span class="pengaturan-akun-text26 UI-16Medium">
                     <span>Notifikasi</span>
                 </span>
-                <a href="cek-sign-out.html" class="pengaturan-akun-navlink">
+                <a href="{{ route('logout') }}" class="pengaturan-akun-navlink">
                     <div class="pengaturan-akun-keluarakun">
                         <img alt="BGI467" src="public/external/bgi467-ybg.svg" class="pengaturan-akun-bg5" />
                         <span class="pengaturan-akun-text28 UI-16Medium">

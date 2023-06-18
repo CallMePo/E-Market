@@ -58,7 +58,7 @@ class LupaPasswordController extends Controller
             $akun->remember_token = Str::random(30);
             $akun->save();
 
-            return redirect(url('signin'))->with('success', "Password Sucessfully reset");
+            return redirect(url('/signin'))->with('success', "Password Sucessfully reset");
         }
         else
         {
