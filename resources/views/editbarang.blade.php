@@ -369,35 +369,35 @@
             <div class="bottombackground">
             </div>
             <div class="tabs">
-                <a href="{{ url('forgot-password') }}"><img src="public/playground_assets/rectangle95268-wdne-200h.png"
+                <a href="{{ url('cariBarangHome') }}"><img src="{{asset('/public/playground_assets/rectangle95268-wdne-200h.png')}}"
                         alt="Rectangle95268" class="etalase-toko-home-rectangle9"></a>
-                <a href="{{ url('forgot-password') }}"><img src="public/playground_assets/rectangle105268-fd7f-200h.png"
+                <a href="{{ url('cariTokoHome') }}"><img src="{{asset('/public/playground_assets/rectangle105268-fd7f-200h.png')}}"
                         alt="Rectangle105268" class="etalase-toko-home-rectangle10"></a>
-                <a href="{{ url('forgot-password') }}"><img
-                        src="public/playground_assets/rectangle115268-1kpk-200h.png" alt="Rectangle115268"
+                <a href="{{ url('pengaturanAkun') }}"><img
+                        src="{{asset('/public/playground_assets/rectangle115268-1kpk-200h.png')}}" alt="Rectangle115268"
                         class="etalase-toko-home-rectangle11"></a>
-                <a href="{{ url('aturetalasetoko') }}"><img src="public/playground_assets/rectangle125268-tqa-200h.png"
+                <a href="{{ url('aturetalasetoko') }}"><img src="{{ asset('/public/playground_assets/rectangle125268-tqa-200h.png')}}"
                         alt="Rectangle125268" class="etalase-toko-home-rectangle12"></a>
-                <a href="{{ url('forgot-password') }}"><img
-                        src="public/playground_assets/rectangle135268-d9pe-200h.png" alt="Rectangle135268"
+                <a href="{{ url('hargaBarangHome') }}"><img
+                        src="{{ asset('/public/playground_assets/rectangle135268-d9pe-200h.png')}}" alt="Rectangle135268"
                         class="etalase-toko-home-rectangle13"></a>
             </div>
             <div class="logo">
-                <a href="{{ url('forgot-password') }}"><img src="public/playground_assets/shape5268-5dlb.svg"
+                <a href="{{ url('cariBarangHome') }}"><img src="{{ asset('/public/playground_assets/shape5268-5dlb.svg')}}"
                         alt="shape5268" class="etalase-toko-home-shape1"></a>
-                <a href="{{ url('forgot-password') }}"><img src="public/playground_assets/shape5268-e5g8.svg"
+                <a href="{{ url('cariTokoHome') }}"><img src="{{ asset('/public/playground_assets/shape5268-e5g8.svg')}}"
                         alt="shape5268" class="etalase-toko-home-shape2"></a>
                 <a href="{{ url('aturetalasetoko') }}"><img
-                        src="public/playground_assets/swmiconsoutlineedit45268-qg82.svg" alt="SWMiconsoutlineedit45268"
+                        src="{{ asset('/public/playground_assets/swmiconsoutlineedit45268-qg82.svg')}}" alt="SWMiconsoutlineedit45268"
                         class="etalase-toko-home-s-miconsoutlineedit4"></a>
-                <a href="{{ url('forgot-password') }}"><img
-                        src="public/playground_assets/swmiconsoutlineuser15268-6xc1.svg" alt="SWMiconsoutlineuser15268"
+                <a href="{{ url('pengaturanAkun') }}"><img
+                        src="{{ asset('/public/playground_assets/swmiconsoutlineuser15268-6xc1.svg')}}" alt="SWMiconsoutlineuser15268"
                         class="etalase-toko-home-s-miconsoutlineuser1"></a>
-                <a href="{{ url('forgot-password') }}"><img
-                        src="public/playground_assets/swmiconsoutlinecoin5268-473n.svg" alt="SWMiconsoutlinecoin5268"
+                <a href="{{ url('hargaBarangHome') }}"><img
+                        src="{{ asset('/public/playground_assets/swmiconsoutlinecoin5268-473n.svg')}}" alt="SWMiconsoutlinecoin5268"
                         class="etalase-toko-home-s-miconsoutlinecoin"></a>
             </div>
-            <img src="public/playground_assets/topdivider5268-z24-200h.png" alt="TopDivider5268" class="divider" />
+            <img src="{{asset('/public/playground_assets/topdivider5268-z24-200h.png')}}" alt="TopDivider5268" class="divider" />
         </div>
     </div>
 </body>

@@ -149,7 +149,7 @@
 <body>
     <div class="page">
         <h2>Lupa Password</h2>
-        <a href="http://www.google.com">
+        <a href="/signin">
             <h5>Sign In</h5>
         </a>
     </div>
