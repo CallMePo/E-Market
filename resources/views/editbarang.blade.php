@@ -339,7 +339,7 @@
 
 <body>
     <div class="container">
-        {{-- changed --}}
+        {{-- changed! --}}
         <div class="header">
             <span class="title">
                 <span><b>Edit Barang</b></span>

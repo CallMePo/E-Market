@@ -150,7 +150,7 @@
         <h2>Reset Password</h2>
         <a href="/signin">
             <h5>Sign In</h5>
-            {{-- changed --}}
+            {{-- changed! --}}
         </a>
     </div>
     <div class="form forgotpassword">
