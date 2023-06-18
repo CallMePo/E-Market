@@ -5,6 +5,17 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SignUpController;
 use App\Http\Controllers\InformasiTokoController;
 use App\Http\Controllers\TokoController;
+use App\Http\Controllers\EditBarangController;
+use App\Http\Controllers\LupaPasswordController;
+use App\Http\Controllers\SignOutController;
+use App\Http\Controllers\PreviewBarangController;
+use App\Http\Controllers\HapusBarangController;
+use App\Http\Controllers\AturEtalaseTokoController;
+use App\Http\Controllers\BarangController;
+use App\Http\Controllers\homeController;
+use App\Http\Controllers\statistikController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\AlihkanController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,3 +50,40 @@ Route::post('/buattoko2', [TokoController::class, 'buattoko2post'])->name('buatt
 
 //CRUD
 Route::get('/index', [TokoController::class, 'index']);
+
+//Routing Log Out//
+Route::get('logout',[SignOutController::class, 'logout'])->name('logout');
+
+//Routing Lupa Password//
+Route::get('forgot-password', [LupaPasswordController::class, 'forgotpassword']);
+Route::post('forgot-password', [LupaPasswordController::class, 'PostForgotPassword']);
+Route::get('reset/{token}', [LupaPasswordController::class, 'reset']);
+Route::post('reset/{token}', [LupaPasswordController::class, 'PostReset']);
+
+//Routing Edit Barang//
+Route::get('/barang/edit/{id}',[EditBarangController::class, 'edit']);
+Route::post('/barang/update', [EditBarangController::class, 'update']);
+
+//Routing Preview Barang//
+Route::get('/barang/preview/{id}',[PreviewBarangController::class, 'view']);
+
+//Routing Hapus Barang//
+Route::get('/barang/hapus/{id}',[HapusBarangController::class, 'hapus']);
+
+//Routing Etalase Toko//
+Route::get('/toko/aturetalase/{toko}',[AturEtalaseTokoController::class, 'pick']);
+Route::get('/toko/aturetalase/',[AturEtalaseTokoController::class, 'pick']);
+
+Route::get('/emarket', function () {
+    return view('home');
+});
+
+Route::get('/signin', [LoginController::class, 'signin'])->name('signin');
+Route::post('/signin', [LoginController::class, 'signinPost'])->name('signin');
+Route::get('/home', [LoginController::class, 'home'])->name('home');
+Route::get('/informasihargabarang', [BarangController::class, 'showListHargaBarang'])->name('informasihargabarang');
+Route::get('/informasibarang', [BarangController::class, 'showDetailBarang'])->name('informasibarang');
+Route::get('/informasitoko', [TokoController::class, 'showDetailToko'])->name('informasitoko');
+Route::get('/kontaktoko', [TokoController::class, 'showKontakToko'])->name('kontaktoko');
+Route::get('/open.whatsapp', [AlihkanController::class, 'openWhatsApp'])->name('open.whatsapp');
+Route::get('/open.facebook', [AlihkanController::class, 'openFacebook'])->name('open.facebook');

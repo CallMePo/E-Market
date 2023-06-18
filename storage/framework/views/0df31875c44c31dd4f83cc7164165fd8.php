@@ -119,7 +119,7 @@
 <body>
     <div class="page">
         <h2>Sign Up</h2>
-        <a href="http://www.google.com">
+        <a href="<?php echo e(route('signin')); ?>">
             <h5>Sign In</h5>
         </a>
     </div>
