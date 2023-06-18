@@ -481,7 +481,7 @@
           <div class="informasi-barang-i-o-status-bar-black">
             <div class="informasi-barang-bg">
               <img
-                src="public/playground_assets/notchi467-obma.svg"
+                src="{{ asset('/public/playground_assets/notchi467-obma.svg') }}"
                 alt="NotchI467"
                 class="informasi-barang-notch"
               />
@@ -489,42 +489,42 @@
             <div class="informasi-barang-right-side">
               <div class="informasi-barang-battery">
                 <img
-                  src="public/playground_assets/rectanglei467-ns2r.svg"
+                  src="{{ asset('/public/playground_assets/rectanglei467-ns2r.svg') }}"
                   alt="RectangleI467"
                   class="informasi-barang-rectangle"
                 />
                 <img
-                  src="public/playground_assets/combinedshapei467-bqf.svg"
+                  src="{{ asset('/public/playground_assets/combinedshapei467-bqf.svg') }}"
                   alt="CombinedShapeI467"
                   class="informasi-barang-combined-shape"
                 />
                 <img
-                  src="public/playground_assets/rectanglei467-zc14.svg"
+                  src="{{ asset('/public/playground_assets/rectanglei467-zc14.svg') }}"
                   alt="RectangleI467"
                   class="informasi-barang-rectangle1"
                 />
               </div>
               <img
-                src="public/playground_assets/wifii467-qdm.svg"
+                src="{{ asset('/public/playground_assets/wifii467-qdm.svg') }}"
                 alt="WifiI467"
                 class="informasi-barang-wifi"
               />
               <img
-                src="public/playground_assets/mobilesignali467-zgu.svg"
+                src="{{ asset('/public/playground_assets/mobilesignali467-zgu.svg') }}"
                 alt="MobileSignalI467"
                 class="informasi-barang-mobile-signal"
               />
             </div>
             <div class="informasi-barang-left-side">
               <img
-                src="public/playground_assets/svg941i467-glqk.svg"
+                src="{{ asset('/public/playground_assets/svg941i467-glqk.svg') }}"
                 alt="SVG941I467"
                 class="informasi-barang-svg941"
               />
             </div>
           </div>
           <img
-            src="public/playground_assets/imageblock4673-pgua-400w.png"
+            src="{{ asset('/public/playground_assets/imageblock4673-pgua-400w.png') }}"
             alt="ImageBlock4673"
             class="informasi-barang-image-block"
           />
@@ -562,39 +562,39 @@
             </div>
             <div class="informasi-barang-tabs">
               <img
-                src="public/playground_assets/rectangle9i467-j6m7-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle9i467-j6m7-200h.png') }}"
                 alt="Rectangle9I467"
                 class="informasi-barang-rectangle9"
               />
               <img
-                src="public/playground_assets/rectangle10i467-ffuq-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle10i467-ffuq-200h.png') }}"
                 alt="Rectangle10I467"
                 class="informasi-barang-rectangle10"
               />
               <img
-                src="public/playground_assets/rectangle11i467-3649i-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle11i467-3649i-200h.png') }}"
                 alt="Rectangle11I467"
                 class="informasi-barang-rectangle11"
               />
               <img
-                src="public/playground_assets/rectangle12i467-zwv-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle12i467-zwv-200h.png') }}"
                 alt="Rectangle12I467"
                 class="informasi-barang-rectangle12"
               />
               <img
-                src="public/playground_assets/rectangle13i467-nbpm-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle13i467-nbpm-200h.png') }}"
                 alt="Rectangle13I467"
                 class="informasi-barang-rectangle13"
               />
             </div>
             <img
-              src="public/playground_assets/topdivideri467-0qki-200h.png"
+              src="{{ asset('/public/playground_assets/topdivideri467-0qki-200h.png') }}"
               alt="TopDividerI467"
               class="informasi-barang-top-divider"
             />
           </div>
           <img
-            src="public/playground_assets/ilustrasicaberawit124673-6y4p-300h.png"
+            src="{{ asset('/public/playground_assets/ilustrasicaberawit124673-6y4p-300h.png') }}"
             alt="ilustrasicaberawit124673"
             class="informasi-barang-ilustrasicaberawit12"
           />
@@ -607,59 +607,59 @@
             </div>
             <div class="informasi-barang-tabs1">
               <img
-                src="public/playground_assets/rectangle9i467-w90s-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle9i467-w90s-200h.png') }}"
                 alt="Rectangle9I467"
                 class="informasi-barang-rectangle91"
               />
               <img
-                src="public/playground_assets/rectangle10i467-fijp-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle10i467-fijp-200h.png') }}"
                 alt="Rectangle10I467"
                 class="informasi-barang-rectangle101"
               />
               <img
-                src="public/playground_assets/rectangle11i467-j0m4-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle11i467-j0m4-200h.png') }}"
                 alt="Rectangle11I467"
                 class="informasi-barang-rectangle111"
               />
               <img
-                src="public/playground_assets/rectangle12i467-vimh-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle12i467-vimh-200h.png') }}"
                 alt="Rectangle12I467"
                 class="informasi-barang-rectangle121"
               />
               <img
-                src="public/playground_assets/rectangle13i467-w3mu-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle13i467-w3mu-200h.png') }}"
                 alt="Rectangle13I467"
                 class="informasi-barang-rectangle131"
               />
             </div>
             <img
-              src="public/playground_assets/topdivideri467-wrh-200h.png"
+              src="{{ asset('/public/playground_assets/topdivideri467-wrh-200h.png') }}"
               alt="TopDividerI467"
               class="informasi-barang-top-divider1"
             />
           </div>
           <img
-            src="public/playground_assets/swmiconsoutlinecart24673-o33l.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlinecart24673-o33l.svg') }}"
             alt="SWMiconsoutlinecart24673"
             class="informasi-barang-s-miconsoutlinecart2"
           />
           <img
-            src="public/playground_assets/swmiconsoutlinelocation14673-gbo.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlinelocation14673-gbo.svg') }}"
             alt="SWMiconsoutlinelocation14673"
             class="informasi-barang-s-miconsoutlinelocation1"
           />
           <img
-            src="public/playground_assets/swmiconsoutlineedit44673-5lgk.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlineedit44673-5lgk.svg') }}"
             alt="SWMiconsoutlineedit44673"
             class="informasi-barang-s-miconsoutlineedit4"
           />
           <img
-            src="public/playground_assets/swmiconsoutlineuser14673-swp.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlineuser14673-swp.svg') }}"
             alt="SWMiconsoutlineuser14673"
             class="informasi-barang-s-miconsoutlineuser1"
           />
           <img
-            src="public/playground_assets/swmiconsoutlinecoin4673-0iom.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlinecoin4673-0iom.svg') }}"
             alt="SWMiconsoutlinecoin4673"
             class="informasi-barang-s-miconsoutlinecoin"
           />
