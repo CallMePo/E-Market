@@ -8,7 +8,7 @@
     <script src="resources\js\index.js"></script>
     <script src="/path/to/cdn/jquery.min.js"></script>
     <script src="resources\js\time-picker.js"></script> --}}
-    <link rel="stylesheet" href="resources\css\buattoko2.css">
+    {{-- <link rel="stylesheet" href="resources\css\buattoko2.css"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
@@ -168,7 +168,7 @@
         }
     </style>
 
-    <div class="container">
+    {{-- <div class="container">
 
         <div class="wrapper">
             <div class="image">
@@ -192,39 +192,68 @@
 
         </div>
         <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
-        <input  id="default-btn" type="file" hidden> <br>
-
-
-
+        <input  id="default-btn" type="file" hidden> <br> --}}
         <div class="form-group">
-            <form action="{{ route('buattoko2post') }}" method="POST">
-            <input type="text" name="namatoko" placeholder="Nama Toko" /> <br/>
-            <input type="text" name="letakpasar" placeholder="Letak Pasar"/><br/>
-            <input type="text" name="lokasitoko" placeholder="Lokasi Toko"/><br/>
-                <div class="jam-operasional">
-                    <span>Buka Toko
-                        <input type="time" name="bukatoko">
-                    </span>
-                    <span>Tutup Toko
-                        <input type="time" name="tutuptoko">
-                    </span>
-                    <span>Hari Buka
-                        <select multiple="multiple" id="myMulti">
-                            <option value="1">Senin</option>
-                            <option value="2">Selasa</option>
-                            <option value="3">Rabu</option>
-                            <option value="4">Kamis</option>
-                            <option value="5">Jumat</option>
-                            <option value="6">Sabtu</option>
-                            <option value="7">Minggu</option>
-                        </select>
-                    </span>
-                </div>
-                <button type="submit" class="create" value="submit">Simpan Toko</button>
+                <form action="{{route('buattoko2post')}}" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <input type="file" name="fotoToko" id="fotoToko" required>
+    <br>
+    <img id="image-preview" src="#" alt="Image Preview" style="display: none; max-width: 200px; max-height: 200px; margin-left:auto; margin-right:auto; width:100%;">
+    <br>
+
+                       {{-- <button id="custom-btn">Choose a file</button>
+                       <input id="default-btn" type="file" name="image" hidden> <br> --}}
+<input name="pasar_id" id="pasar_id" type="hidden" value="1">
+<input name="akun_id" id="akun_id" type="hidden" value="1" >
+
+                       <input type="text" name="namaToko" placeholder="Nama Toko" /> <br/>
+                       <input type="text" name="kotaToko" placeholder="Kota Toko"/><br/>
+                       <input type="text" name="lokasiToko" placeholder="Lokasi Toko"/><br/>
+                           <div class="jam-operasional">
+                               <span>Buka Toko
+                                   <input type="time" name="jamoperasiToko">
+                               </span>
+                           </div>
+                           <button type="submit" class="create" >Simpan Toko</button>
+                    </div>
+
             </form>
         </div>
     </div>
     <script>
+        // Get the file input element
+        const fileInput = document.getElementById('fotoToko');
+        // Get the image preview element
+        const imagePreview = document.getElementById('image-preview');
+
+        // Add an event listener to the file input
+        fileInput.addEventListener('change', function(event) {
+            // Get the selected file
+            const file = event.target.files[0];
+
+            // Check if a file is selected
+            if (file) {
+                // Create a FileReader object
+                const reader = new FileReader();
+
+                // Set up the FileReader onload event
+                reader.onload = function(e) {
+                    // Update the image preview source with the selected image
+                    imagePreview.src = e.target.result;
+                    // Display the image preview
+                    imagePreview.style.display = 'block';
+                }
+
+                // Read the selected file as a data URL
+                reader.readAsDataURL(file);
+            } else {
+                // No file selected, hide the image preview
+                imagePreview.src = '#';
+                imagePreview.style.display = 'none';
+            }
+        });
+    </script>
+    {{-- <script>
         const wrapper = document.querySelector(".wrapper");
         const fileName = document.querySelector(".file-name");
         const defaultBtn = document.querySelector("#default-btn");
@@ -234,36 +263,60 @@
         let regExp = /[0-9a-zA-Z\^\&\'\@\{\}\[\]\,\$\=\!\-\#\(\)\.\%\+\~\_ ]+$/;
 
         function defaultBtnActive() {
-            defaultBtn.click();
+           defaultBtn.click();
         }
+        customBtn.addEventListener("click", function() {
+   defaultBtn.click();
+});
+
         defaultBtn.addEventListener("change", function() {
-            const file = this.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function() {
-                    const result = reader.result;
-                    img.src = result;
-                    wrapper.classList.add("active");
-                }
-                cancelBtn.addEventListener("click", function() {
-                    img.src = "" ;
-                    wrapper.classList.remove("active");
-                })
-                reader.readAsDataURL(file);
-            }
-            if (this.value) {
-                let valueStore = this.value.match(regExp);
-                fileName.textContent = valueStore;
-            }
+           const file = this.files[0];
+           if (file) {
+              const reader = new FileReader();
+              reader.onload = function() {
+                 const result = reader.result;
+                 img.src = result;
+                 wrapper.classList.add("active");
+              }
+              cancelBtn.addEventListener("click", function() {
+                 img.src = "";
+                 wrapper.classList.remove("active");
+              })
+              reader.readAsDataURL(file);
+           }
+           if (this.value) {
+              let valueStore = this.value.match(regExp);
+              fileName.textContent = valueStore;
+           }
+        });
+
+        document.querySelector('form').addEventListener('submit', function(event) {
+           event.preventDefault(); // Prevent the form from submitting immediately
+
+           // Access the form data and perform any necessary actions
+           const formData = new FormData(this);
+           // ... Perform additional actions if needed
+
+           // Submit the form data
+           fetch(this.action, {
+              method: this.method,
+              body: formData
+           })
+           .then(response => {
+              // Handle the response from the server if needed
+           })
+           .catch(error => {
+              // Handle any errors that occur during form submission
+           });
         });
         // var myDrop = new drop({
         //     selector: '#myMulti'
         // });
         // var myDrop =new drop({
-        //     selector: '#myMulti'
+        //   selector: '#myMulti'
         //     preselected: [0, 2]
         // });
-    </script>
+    </script> --}}
 </body>
 
 </html>

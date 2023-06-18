@@ -798,7 +798,7 @@
           <div class="harga-barang-home-input-search">
             <a href="cari-barang.html" class="harga-barang-home-navlink">
               <img
-                src="public/playground_assets/bgi467-mhku.svg"
+                src="{{ asset('/public/playground_assets/bgi467-mhku.svg') }}"
                 alt="BGI467"
                 class="harga-barang-home-bg1"
               />
@@ -810,7 +810,7 @@
           <div class="harga-barang-home-content-blocks">
             <div class="harga-barang-home-content-content-block-small">
               <img
-                src="public/playground_assets/contentblocki467-elu8-200h.png"
+                src="{{ asset('/public/playground_assets/contentblocki467-elu8-200h.png') }}"
                 alt="ContentBlockI467"
                 class="harga-barang-home-content-block"
               />
@@ -828,14 +828,14 @@
                 </span>
               </span>
               <img
-                src="public/playground_assets/dividerlinei467-q4e.svg"
+                src="{{ asset('/public/playground_assets/dividerlinei467-q4e.svg') }}"
                 alt="DividerLineI467"
                 class="harga-barang-home-divider-line"
               />
             </div>
             <div class="harga-barang-home-content-content-block-small1">
               <img
-                src="public/playground_assets/contentblocki467-e9nh-200h.png"
+                src="{{ asset('/public/playground_assets/contentblocki467-e9nh-200h.png') }}"
                 alt="ContentBlockI467"
                 class="harga-barang-home-content-block1"
               />
@@ -853,14 +853,14 @@
                 </span>
               </span>
               <img
-                src="public/playground_assets/dividerlinei467-1bx.svg"
+                src="{{ asset('/public/playground_assets/dividerlinei467-1bx.svg') }}"
                 alt="DividerLineI467"
                 class="harga-barang-home-divider-line1"
               />
             </div>
             <div class="harga-barang-home-content-content-block-small2">
               <img
-                src="public/playground_assets/contentblocki467-qcmn-200h.png"
+                src="{{ asset('/public/playground_assets/contentblocki467-qcmn-200h.png') }}"
                 alt="ContentBlockI467"
                 class="harga-barang-home-content-block2"
               />
@@ -882,14 +882,14 @@
                 </span>
               </span>
               <img
-                src="public/playground_assets/dividerlinei467-44ap.svg"
+                src="{{ asset('/public/playground_assets/dividerlinei467-44ap.svg') }}"
                 alt="DividerLineI467"
                 class="harga-barang-home-divider-line2"
               />
             </div>
             <div class="harga-barang-home-content-content-block-small3">
               <img
-                src="public/playground_assets/contentblocki467-4rni-200h.png"
+                src="{{ asset('/public/playground_assets/contentblocki467-4rni-200h.png') }}"
                 alt="ContentBlockI467"
                 class="harga-barang-home-content-block3"
               />
@@ -911,14 +911,14 @@
                 </span>
               </span>
               <img
-                src="public/playground_assets/dividerlinei467-sq5.svg"
+                src="{{ asset('/public/playground_assets/dividerlinei467-sq5.svg') }}"
                 alt="DividerLineI467"
                 class="harga-barang-home-divider-line3"
               />
             </div>
             <div class="harga-barang-home-content-content-block-small4">
               <img
-                src="public/playground_assets/contentblocki467-j15n-200h.png"
+                src="{{ asset('/public/playground_assets/contentblocki467-j15n-200h.png') }}"
                 alt="ContentBlockI467"
                 class="harga-barang-home-content-block4"
               />
@@ -940,14 +940,14 @@
                 </span>
               </span>
               <img
-                src="public/playground_assets/dividerlinei467-lrrq.svg"
+                src="{{ asset('/public/playground_assets/dividerlinei467-lrrq.svg') }}"
                 alt="DividerLineI467"
                 class="harga-barang-home-divider-line4"
               />
             </div>
             <div class="harga-barang-home-content-content-block-small5">
               <img
-                src="public/playground_assets/contentblocki467-p23-200h.png"
+                src="{{ asset('/public/playground_assets/contentblocki467-p23-200h.png') }}"
                 alt="ContentBlockI467"
                 class="harga-barang-home-content-block5"
               />
@@ -969,13 +969,13 @@
                 </span>
               </span>
               <img
-                src="public/playground_assets/dividerlinei467-3xs.svg"
+                src="{{ asset('/public/playground_assets/dividerlinei467-3xs.svg') }}"
                 alt="DividerLineI467"
                 class="harga-barang-home-divider-line5"
               />
             </div>
             <img
-              src="public/playground_assets/featuredmanfaatwortelsumberberbagaivitaminmanfaatt4673-5xdw-200h.png"
+              src="{{ asset('/public/playground_assets/featuredmanfaatwortelsumberberbagaivitaminmanfaatt4673-5xdw-200h.png') }}"
               alt="FeaturedManfaatWortelSumberBerbagaiVitaminManfaatT4673"
               class="harga-barang-home-featured-manfaat-wortel-sumber-berbagai-vitamin-manfaat-t"
             />
@@ -986,33 +986,33 @@
             </div>
             <div class="harga-barang-home-tabs">
               <img
-                src="public/playground_assets/rectangle9i467-ebh-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle9i467-ebh-200h.png') }}"
                 alt="Rectangle9I467"
                 class="harga-barang-home-rectangle9"
               />
               <img
-                src="public/playground_assets/rectangle10i467-m4br-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle10i467-m4br-200h.png') }}"
                 alt="Rectangle10I467"
                 class="harga-barang-home-rectangle10"
               />
               <img
-                src="public/playground_assets/rectangle11i467-6xwo-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle11i467-6xwo-200h.png') }}"
                 alt="Rectangle11I467"
                 class="harga-barang-home-rectangle11"
               />
               <img
-                src="public/playground_assets/rectangle12i467-9r3k-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle12i467-9r3k-200h.png') }}"
                 alt="Rectangle12I467"
                 class="harga-barang-home-rectangle12"
               />
               <img
-                src="public/playground_assets/rectangle13i467-lr-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle13i467-lr-200h.png') }}"
                 alt="Rectangle13I467"
                 class="harga-barang-home-rectangle13"
               />
             </div>
             <img
-              src="public/playground_assets/topdivideri467-oegs-200h.png"
+              src="{{ asset('/public/playground_assets/topdivideri467-oegs-200h.png') }}"
               alt="TopDividerI467"
               class="harga-barang-home-top-divider"
             />
@@ -1027,87 +1027,87 @@
                 class="harga-barang-home-navlink1"
               >
                 <img
-                  src="public/playground_assets/rectangle9i467-cak-200h.png"
+                  src="{{ asset('/public/playground_assets/rectangle9i467-cak-200h.png') }}"
                   alt="Rectangle9I467"
                   class="harga-barang-home-rectangle91"
                 />
               </a>
               <img
-                src="public/playground_assets/rectangle10i467-pio9-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle10i467-pio9-200h.png') }}"
                 alt="Rectangle10I467"
                 class="harga-barang-home-rectangle101"
               />
               <img
-                src="public/playground_assets/rectangle11i467-hw38-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle11i467-hw38-200h.png') }}"
                 alt="Rectangle11I467"
                 class="harga-barang-home-rectangle111"
               />
               <img
-                src="public/playground_assets/rectangle12i467-3n5h-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle12i467-3n5h-200h.png') }}"
                 alt="Rectangle12I467"
                 class="harga-barang-home-rectangle121"
               />
               <img
-                src="public/playground_assets/rectangle13i467-ybec-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle13i467-ybec-200h.png') }}"
                 alt="Rectangle13I467"
                 class="harga-barang-home-rectangle131"
               />
             </div>
             <img
-              src="public/playground_assets/topdivideri467-dg18-200h.png"
+              src="{{ asset('/') }}public/playground_assets/topdivideri467-dg18-200h.png"
               alt="TopDividerI467"
               class="harga-barang-home-top-divider1"
             />
           </div>
           <a href="{{ route('home') }}" class="cari-barang-home-navlink10">
           <img
-            src="public/playground_assets/swmiconsoutlinecart24673-erfq.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlinecart24673-erfq.svg') }}"
             alt="SWMiconsoutlinecart24673"
             class="harga-barang-home-s-miconsoutlinecart2"
           />
           </a>
           <img
-            src="public/playground_assets/shape4673-9omm.svg"
+            src="{{ asset('/public/playground_assets/shape4673-9omm.svg') }}"
             alt="shape4673"
             class="harga-barang-home-shape"
           />
           <img
-            src="public/playground_assets/swmiconsoutlineedit44673-rvwu.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlineedit44673-rvwu.svg') }}"
             alt="SWMiconsoutlineedit44673"
             class="harga-barang-home-s-miconsoutlineedit4"
           />
           <img
-            src="public/playground_assets/swmiconsoutlineuser14673-yj6.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlineuser14673-yj6.svg') }}"
             alt="SWMiconsoutlineuser14673"
             class="harga-barang-home-s-miconsoutlineuser1"
           />
           <img
-            src="public/playground_assets/swmiconsoutlinecoin4673-5g.svg"
+            src="{{ asset('/public/playground_assets/swmiconsoutlinecoin4673-5g.svg') }}"
             alt="SWMiconsoutlinecoin4673"
             class="harga-barang-home-s-miconsoutlinecoin"
           />
           <img
-            src="public/playground_assets/image20e5c6f9997f40deb90a25f8c3be2b2d14673-k2p-200h.png"
+            src="{{ asset('/public/playground_assets/image20e5c6f9997f40deb90a25f8c3be2b2d14673-k2p-200h.png') }}"
             alt="IMAGE20e5c6f9997f40deb90a25f8c3be2b2d14673"
             class="harga-barang-home-image20e5c6f9997f40deb90a25f8c3be2b2d1"
           />
           <img
-            src="public/playground_assets/image0204861001597752093bahayaikanmujairyangjarang4673-e1rb-200h.png"
+            src="{{ asset('/public/playground_assets/image0204861001597752093bahayaikanmujairyangjarang4673-e1rb-200h.png') }}"
             alt="IMAGE0204861001597752093BahayaIkanMujairyangJarang4673"
             class="harga-barang-home-image020486100159775209-bahaya-ikan-mujairyang-jarang"
           />
           <img
-            src="public/playground_assets/hasilpanencabemerahkeritingmelimpah14673-d2gz-200h.png"
+            src="{{ asset('/public/playground_assets/hasilpanencabemerahkeritingmelimpah14673-d2gz-200h.png') }}"
             alt="hasilpanencabemerahkeritingmelimpah14673"
             class="harga-barang-home-hasilpanencabemerahkeritingmelimpah1"
           />
           <img
-            src="public/playground_assets/f37f41993d024169a1dcf91f01f5ea3a14673-9nrv-200h.png"
+            src="{{ asset('/public/playground_assets/f37f41993d024169a1dcf91f01f5ea3a14673-9nrv-200h.png') }}"
             alt="f37f41993d024169a1dcf91f01f5ea3a14673"
             class="harga-barang-home-f37f41993d024169a1dcf91f01f5ea3a1"
           />
           <img
-            src="public/playground_assets/featuredmanfaatikanbandeng14673-4gie-200h.png"
+            src="{{ asset('/public/playground_assets/featuredmanfaatikanbandeng14673-4gie-200h.png') }}"
             alt="FeaturedManfaatIkanBandeng14673"
             class="harga-barang-home-featured-manfaat-ikan-bandeng1"
           />
