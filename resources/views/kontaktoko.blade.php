@@ -539,7 +539,7 @@
         <div class="kontak-toko-kontak-toko">
           <div class="kontak-toko-page-header">
             <img
-              src="public/playground_assets/tokomadjulengkapdan26667-vvw-500w.png"
+              src="{{ asset('/public/playground_assets/tokomadjulengkapdan26667-vvw-500w.png') }}"
               alt="tokomadjulengkapdan26667"
               class="kontak-toko-tokomadjulengkapdan2"
             />
@@ -548,12 +548,12 @@
             </span>
             <div class="kontak-toko-icon-x">
               <img
-                src="public/playground_assets/line36667-q3wu.svg"
+                src="{{ asset('/public/playground_assets/line36667-q3wu.svg') }}"
                 alt="Line36667"
                 class="kontak-toko-line3"
               />
               <img
-                src="public/playground_assets/line46667-9u8f.svg"
+                src="{{ asset('/public/playground_assets/line46667-9u8f.svg') }}"
                 alt="Line46667"
                 class="kontak-toko-line4"
               />
@@ -570,24 +570,24 @@
               <div class="kontak-toko-segmented-control-structure">
                 <a href="{{ route('open.whatsapp') }}" target="_blank" class="btn btn-primary">
                   <img
-                    src="public/playground_assets/bgi666-cgsg.svg"
+                    src="{{ asset('/public/playground_assets/bgi666-cgsg.svg') }}"
                     alt="BGI666"
                     class="kontak-toko-bg"
                   />
                 </a>
                 <div class="kontak-toko-group16">
                   <img
-                    src="public/playground_assets/vectori666-g82g.svg"
+                    src="{{ asset('/public/playground_assets/vectori666-g82g.svg') }}"
                     alt="VectorI666"
                     class="kontak-toko-vector"
                   />
                   <img
-                    src="public/playground_assets/vectori666-rvc4.svg"
+                    src="{{ asset('/public/playground_assets/vectori666-rvc4.svg') }}"
                     alt="VectorI666"
                     class="kontak-toko-vector1"
                   />
                   <img
-                    src="public/playground_assets/vectori666-w4v9.svg"
+                    src="{{ asset('/public/playground_assets/vectori666-w4v9.svg') }}"
                     alt="VectorI666"
                     class="kontak-toko-vector2"
                   />
@@ -605,12 +605,12 @@
             <div class="kontak-toko-fb">
               <div class="kontak-toko-segmented-control-structure1">
                 <img
-                  src="public/playground_assets/bgi666-4rw.svg"
+                  src="{{ asset('/public/playground_assets/bgi666-4rw.svg') }}"
                   alt="BGI666"
                   class="kontak-toko-bg1"
                 />
                 <img
-                  src="public/playground_assets/vectori666-38gs.svg"
+                  src="{{ asset('/public/playground_assets/vectori666-38gs.svg') }}"
                   alt="VectorI666"
                   class="kontak-toko-vector3"
                 />
@@ -633,7 +633,7 @@
             <div class="kontak-toko-i-o-status-bar-black">
               <div class="kontak-toko-bg2">
                 <img
-                  src="public/playground_assets/notchi666-aoh9.svg"
+                  src="{{ asset('/public/playground_assets/notchi666-aoh9.svg') }}"
                   alt="NotchI666"
                   class="kontak-toko-notch"
                 />
@@ -641,35 +641,35 @@
               <div class="kontak-toko-right-side">
                 <div class="kontak-toko-battery">
                   <img
-                    src="public/playground_assets/rectanglei666-t1sig.svg"
+                    src="{{ asset('/public/playground_assets/rectanglei666-t1sig.svg') }}"
                     alt="RectangleI666"
                     class="kontak-toko-rectangle"
                   />
                   <img
-                    src="public/playground_assets/combinedshapei666-zj3t.svg"
+                    src="{{ asset('/public/playground_assets/combinedshapei666-zj3t.svg') }}"
                     alt="CombinedShapeI666"
                     class="kontak-toko-combined-shape"
                   />
                   <img
-                    src="public/playground_assets/rectanglei666-frvn.svg"
+                    src="{{ asset('/public/playground_assets/rectanglei666-frvn.svg') }}"
                     alt="RectangleI666"
                     class="kontak-toko-rectangle1"
                   />
                 </div>
                 <img
-                  src="public/playground_assets/wifii666-pbak.svg"
+                  src="{{ asset('/public/playground_assets/wifii666-pbak.svg') }}"
                   alt="WifiI666"
                   class="kontak-toko-wifi"
                 />
                 <img
-                  src="public/playground_assets/mobilesignali666-8p3o.svg"
+                  src="{{ asset('/public/playground_assets/mobilesignali666-8p3o.svg') }}"
                   alt="MobileSignalI666"
                   class="kontak-toko-mobile-signal"
                 />
               </div>
               <div class="kontak-toko-left-side">
                 <img
-                  src="public/playground_assets/svg941i666-glcs.svg"
+                  src="{{ asset('/public/playground_assets/svg941i666-glcs.svg') }}"
                   alt="SVG941I666"
                   class="kontak-toko-svg941"
                 />
@@ -682,60 +682,60 @@
             </div>
             <div class="kontak-toko-tabs">
               <img
-                src="public/playground_assets/rectangle96668-xzhc-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle96668-xzhc-200h.png') }}"
                 alt="Rectangle96668"
                 class="kontak-toko-rectangle9"
               />
               <img
-                src="public/playground_assets/rectangle106668-76l-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle106668-76l-200h.png') }}"
                 alt="Rectangle106668"
                 class="kontak-toko-rectangle10"
               />
               <img
-                src="public/playground_assets/rectangle116668-r7s-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle116668-r7s-200h.png') }}"
                 alt="Rectangle116668"
                 class="kontak-toko-rectangle11"
               />
               <img
-                src="public/playground_assets/rectangle126668-ewl-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle126668-ewl-200h.png') }}"
                 alt="Rectangle126668"
                 class="kontak-toko-rectangle12"
               />
               <img
-                src="public/playground_assets/rectangle136668-gozl-200h.png"
+                src="{{ asset('/public/playground_assets/rectangle136668-gozl-200h.png') }}"
                 alt="Rectangle136668"
                 class="kontak-toko-rectangle13"
               />
             </div>
             <div class="kontak-toko-logo">
               <img
-                src="public/playground_assets/shape6668-2ojj.svg"
+                src="{{ asset('/public/playground_assets/shape6668-2ojj.svg') }}"
                 alt="shape6668"
                 class="kontak-toko-shape"
               />
               <img
-                src="public/playground_assets/shape6668-n0kg.svg"
+                src="{{ asset('/public/playground_assets/shape6668-n0kg.svg') }}"
                 alt="shape6668"
                 class="kontak-toko-shape1"
               />
               <img
-                src="public/playground_assets/swmiconsoutlineedit46668-1enj.svg"
+                src="{{ asset('/public/playground_assets/swmiconsoutlineedit46668-1enj.svg') }}"
                 alt="SWMiconsoutlineedit46668"
                 class="kontak-toko-s-miconsoutlineedit4"
               />
               <img
-                src="public/playground_assets/swmiconsoutlineuser16668-c3j8.svg"
+                src="{{ asset('/public/playground_assets/swmiconsoutlineuser16668-c3j8.svg') }}"
                 alt="SWMiconsoutlineuser16668"
                 class="kontak-toko-s-miconsoutlineuser1"
               />
               <img
-                src="public/playground_assets/swmiconsoutlinecoin6668-igw7.svg"
+                src="{{ asset('/public/playground_assets/swmiconsoutlinecoin6668-igw7.svg') }}"
                 alt="SWMiconsoutlinecoin6668"
                 class="kontak-toko-s-miconsoutlinecoin"
               />
             </div>
             <img
-              src="public/playground_assets/topdivider6668-sop-200h.png"
+              src="{{ asset('/public/playground_assets/topdivider6668-sop-200h.png') }}"
               alt="TopDivider6668"
               class="kontak-toko-top-divider"
             />
