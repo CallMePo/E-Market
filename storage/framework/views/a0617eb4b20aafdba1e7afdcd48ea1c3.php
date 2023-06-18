@@ -193,7 +193,7 @@
 
 
         <div class="form-group">
-            <form action="<?php echo e(route('buattoko2')); ?>" method="POST">
+            <form action="<?php echo e(route('buattoko2post')); ?>" method="POST">
             <input type="text" name="namatoko" placeholder="Nama Toko" /> <br/>
             <input type="text" name="letakpasar" placeholder="Letak Pasar"/><br/>
             <input type="text" name="lokasitoko" placeholder="Lokasi Toko"/><br/>
